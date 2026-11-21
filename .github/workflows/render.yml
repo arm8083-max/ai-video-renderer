@@ -34,7 +34,7 @@ jobs:
       composition: ${{ steps.plan.outputs.composition }}
       audio_file: ${{ steps.plan.outputs.audio_file }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - id: plan
         name: Build render matrix
@@ -88,9 +88,9 @@ jobs:
       max-parallel: 12
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -137,7 +137,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Download rendered parts
         uses: actions/download-artifact@v4
@@ -154,7 +154,18 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p final
-          find rendered-parts -maxdepth 1 -name 'part-*.mp4' -print | sort | sed "s#^#file '${GITHUB_WORKSPACE}/#;s#$#'#" > parts.txt
+          python3 - <<'PY'
+          from pathlib import Path
+
+          root = Path.cwd()
+          parts = sorted((root / "rendered-parts").glob("part-*.mp4"))
+          if not parts:
+              raise SystemExit("No rendered parts were downloaded")
+          (root / "parts.txt").write_text(
+              "\n".join(f"file '{part.as_posix()}'" for part in parts) + "\n",
+              encoding="utf-8",
+          )
+          PY
 
           ffmpeg -hide_banner -y \
             -f concat -safe 0 -i parts.txt \

@@ -1,0 +1,93 @@
+name: Assemble existing render
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: Workflow run ID containing part-* artifacts
+        required: true
+        type: string
+      film:
+        description: Film directory name under films/
+        required: true
+        default: ai-reality-gap-2026-11-21
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  assemble:
+    name: Assemble final MP4
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Read film configuration
+        id: config
+        shell: bash
+        env:
+          FILM: ${{ inputs.film }}
+        run: |
+          set -euo pipefail
+          config="films/${FILM}/render-config.json"
+          test -f "${config}"
+          echo "audio_file=$(jq -r '.audio_file' "${config}")" >> "${GITHUB_OUTPUT}"
+
+      - name: Download rendered parts
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ inputs.source_run_id }}
+          pattern: part-*
+          path: rendered-parts
+          merge-multiple: true
+
+      - name: Join parts and add narration
+        shell: bash
+        env:
+          FILM: ${{ inputs.film }}
+          AUDIO_FILE: ${{ steps.config.outputs.audio_file }}
+        run: |
+          set -euo pipefail
+          mkdir -p final
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          root = Path.cwd()
+          parts = sorted((root / "rendered-parts").glob("part-*.mp4"))
+          if not parts:
+              raise SystemExit("No rendered parts were downloaded")
+          (root / "parts.txt").write_text(
+              "\n".join(f"file '{part.as_posix()}'" for part in parts) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+          ffmpeg -hide_banner -y \
+            -f concat -safe 0 -i parts.txt \
+            -i "films/${FILM}/public/${AUDIO_FILE}" \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy \
+            -c:a aac -b:a 192k \
+            -movflags +faststart \
+            -shortest \
+            "final/${FILM}.mp4"
+
+          ffprobe -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=index,codec_name,codec_type,width,height,r_frame_rate \
+            -of json \
+            "final/${FILM}.mp4" | tee "final/${FILM}-media-info.json"
+
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.film }}-final
+          path: final/
+          if-no-files-found: error
+          retention-days: 1
+

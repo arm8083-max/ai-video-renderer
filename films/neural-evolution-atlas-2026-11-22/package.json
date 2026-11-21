@@ -1,0 +1,27 @@
+{
+  "name": "neural-evolution-atlas-film",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "still:opening": "remotion still src/index.ts NeuralEvolutionAtlas styleframes/opening.png --frame=100",
+    "still:climax": "remotion still src/index.ts NeuralEvolutionAtlas styleframes/climax.png --frame=1070",
+    "still:ending": "remotion still src/index.ts NeuralEvolutionAtlas styleframes/ending.png --frame=1490"
+  },
+  "dependencies": {
+    "@fontsource/dm-serif-display": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@remotion/cli": "4.0.545",
+    "@remotion/renderer": "4.0.545",
+    "@remotion/transitions": "4.0.545",
+    "lucide-react": "1.77.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.545"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -246,6 +246,7 @@ export const TextScene: React.FC = () => {
   const splitP = between(frame, wordsAt, wordsAt + 16);
   const threadP = between(frame, holdAt, thoughtAt + 24, 0, 1, cameraEase);
   const pageP = between(frame, pagesAt, pagesAt + 24, 0, 1, cameraEase);
+  const drift = between(frame, 0, SCENE.text.end - SCENE.text.start, 0, 1, cameraEase);
 
   return (
     <Canvas>
@@ -258,7 +259,10 @@ export const TextScene: React.FC = () => {
           top: 158,
           width: 1728,
           height: 790,
-          transform: `translate3d(${interpolate(editorP, [0, 1], [70, 0], clamp)}px, 0, 0)`,
+          transform: `translate3d(${interpolate(editorP, [0, 1], [70, 0], clamp) - drift * 14}px, ${
+            -drift * 6
+          }px, 0) scale(${1 + drift * 0.006})`,
+          transformOrigin: "52% 52%",
           opacity: 0.2 + 0.8 * editorP
         }}
       >
@@ -353,6 +357,7 @@ export const CodeScene: React.FC = () => {
   const assistantP = uiSpring(frame, assistantAt);
   const workP = between(frame, tireAt, tireAt + 36, 0, 1, objectEase);
   const deadlineP = between(frame, deadlinesAt, deadlinesAt + 24, 0, 1, cameraEase);
+  const drift = between(frame, 0, SCENE.code.end - SCENE.code.start, 0, 1, cameraEase);
 
   return (
     <Canvas background={C.paper2}>
@@ -367,7 +372,8 @@ export const CodeScene: React.FC = () => {
           display: "grid",
           gridTemplateColumns: "1.65fr 0.85fr",
           gap: 28,
-          transform: `translate3d(0, ${interpolate(editorP, [0, 1], [60, 0], clamp)}px, 0)`,
+          transform: `translate3d(${-drift * 12}px, ${interpolate(editorP, [0, 1], [60, 0], clamp) - drift * 5}px, 0) scale(${1 + drift * 0.005})`,
+          transformOrigin: "50% 52%",
           opacity: 0.1 + 0.9 * editorP
         }}
       >
@@ -656,6 +662,7 @@ export const VideoScene: React.FC = () => {
   const movementP = between(frame, movementAt, movementAt + 24, 0, 1, cameraEase);
   const lightP = between(frame, lightAt, lightAt + 18, 0, 1, objectEase);
   const soundP = between(frame, soundAt, soundAt + 18, 0, 1, objectEase);
+  const drift = between(frame, 0, SCENE.video.end - SCENE.video.start, 0, 1, cameraEase);
 
   return (
     <Canvas background={C.ink}>
@@ -668,12 +675,12 @@ export const VideoScene: React.FC = () => {
             height: "112%",
             left: "-6%",
             top: "-6%",
-            transform: `translate3d(${interpolate(movementP, [0, 1], [0, -44], clamp)}px, ${interpolate(
+            transform: `translate3d(${interpolate(movementP, [0, 1], [0, -44], clamp) - drift * 18}px, ${interpolate(
               movementP,
               [0, 1],
               [0, -18],
               clamp
-            )}px, 0) scale(${interpolate(movementP, [0, 1], [1.015, 1.075], clamp)})`,
+            ) - drift * 7}px, 0) scale(${interpolate(movementP, [0, 1], [1.015, 1.075], clamp) + drift * 0.008})`,
             transformOrigin: "72% 52%"
           }}
         />
@@ -822,6 +829,7 @@ export const StepsScene: React.FC = () => {
   const nextP = between(frame, nextAt, nextAt + 24, 0, 1, cameraEase);
   const overviewP = between(frame, gapsAt, gapsAt + 24, 0, 1, cameraEase);
   const compressP = between(frame, shorterAt, shorterAt + 45, 0, 1, compressEase);
+  const drift = between(frame, 0, SCENE.steps.end - SCENE.steps.start, 0, 1, cameraEase);
   const wideGap = 292;
   const tightGap = 215;
 
@@ -838,12 +846,12 @@ export const StepsScene: React.FC = () => {
           top: 370,
           width: 2500,
           height: 430,
-          transform: `translate3d(${interpolate(overviewP, [0, 1], [120, -80], clamp)}px, ${interpolate(
+          transform: `translate3d(${interpolate(overviewP, [0, 1], [120, -80], clamp) - drift * 18}px, ${interpolate(
             overviewP,
             [0, 1],
             [30, 0],
             clamp
-          )}px, 0) scale(${interpolate(overviewP, [0, 1], [1.02, 0.83], clamp)})`,
+          ) - drift * 4}px, 0) scale(${interpolate(overviewP, [0, 1], [1.02, 0.83], clamp) + drift * 0.006})`,
           transformOrigin: "left center"
         }}
       >
@@ -932,6 +940,7 @@ export const ChoiceScene: React.FC = () => {
   const dimP = between(frame, notAt, canAt + 18, 0, 1, objectEase);
   const handP = between(frame, weAt, weAt + 20, 0, 1, cameraEase);
   const answerP = between(frame, wantAt, doAt + 12, 0, 1, objectEase);
+  const drift = between(frame, 0, SCENE.choice.end - SCENE.choice.start, 0, 1, cameraEase);
 
   return (
     <Canvas>
@@ -939,12 +948,14 @@ export const ChoiceScene: React.FC = () => {
         src={staticFile("assets/future-choice.png")}
         style={{
           ...fullImage,
-          transform: `translate3d(${interpolate(revealP, [0, 1], [48, 0], clamp)}px, 0, 0) scale(${interpolate(
+          transform: `translate3d(${interpolate(revealP, [0, 1], [48, 0], clamp) - drift * 14}px, ${
+            -drift * 5
+          }px, 0) scale(${interpolate(
             revealP,
             [0, 1],
             [1.06, 1],
             clamp
-          )})`,
+          ) + drift * 0.008})`,
           transformOrigin: "55% 55%"
         }}
       />

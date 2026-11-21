@@ -2,6 +2,7 @@
 **/.remotion/
 **/out/
 **/dist/
+output/
 *.mp4
 *.mov
 *.webm

@@ -1,0 +1,182 @@
+name: Render video in parallel
+
+on:
+  workflow_dispatch:
+    inputs:
+      film:
+        description: Film directory name under films/
+        required: true
+        default: ai-reality-gap-2026-11-21
+        type: string
+      shards:
+        description: Number of parallel render jobs
+        required: true
+        default: "12"
+        type: choice
+        options:
+          - "4"
+          - "8"
+          - "12"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: render-${{ inputs.film }}
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    name: Plan frame ranges
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      composition: ${{ steps.plan.outputs.composition }}
+      audio_file: ${{ steps.plan.outputs.audio_file }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: plan
+        name: Build render matrix
+        shell: bash
+        env:
+          FILM: ${{ inputs.film }}
+          SHARDS: ${{ inputs.shards }}
+        run: |
+          set -euo pipefail
+          film_dir="films/${FILM}"
+          config="${film_dir}/render-config.json"
+
+          test -f "${config}"
+          test -f "${film_dir}/package-lock.json"
+
+          total_frames="$(jq -r '.expected_frames' "${config}")"
+          composition="$(jq -r '.composition' "${config}")"
+          audio_file="$(jq -r '.audio_file' "${config}")"
+
+          python3 - "${total_frames}" "${SHARDS}" <<'PY'
+          import json
+          import os
+          import sys
+
+          total = int(sys.argv[1])
+          shards = int(sys.argv[2])
+          include = []
+          for index in range(shards):
+              start = total * index // shards
+              end = total * (index + 1) // shards - 1
+              include.append({
+                  "part": f"{index:02d}",
+                  "start": start,
+                  "end": end,
+              })
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write("matrix=" + json.dumps({"include": include}, separators=(",", ":")) + "\n")
+          PY
+
+          echo "composition=${composition}" >> "${GITHUB_OUTPUT}"
+          echo "audio_file=${audio_file}" >> "${GITHUB_OUTPUT}"
+
+  render:
+    name: Render part ${{ matrix.part }}
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 12
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: films/${{ inputs.film }}/package-lock.json
+
+      - name: Install film dependencies
+        working-directory: films/${{ inputs.film }}
+        run: npm ci --no-audit --no-fund
+
+      - name: Render frame range
+        working-directory: films/${{ inputs.film }}
+        env:
+          COMPOSITION: ${{ needs.plan.outputs.composition }}
+          PART: ${{ matrix.part }}
+          START_FRAME: ${{ matrix.start }}
+          END_FRAME: ${{ matrix.end }}
+        run: |
+          mkdir -p out
+          npx remotion render \
+            src/index.ts \
+            "${COMPOSITION}" \
+            "out/part-${PART}.mp4" \
+            --frames="${START_FRAME}-${END_FRAME}" \
+            --codec=h264 \
+            --crf=18 \
+            --x264-preset=veryfast \
+            --concurrency=4 \
+            --muted \
+            --log=verbose
+
+      - name: Upload rendered part
+        uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.part }}
+          path: films/${{ inputs.film }}/out/part-${{ matrix.part }}.mp4
+          if-no-files-found: error
+          retention-days: 1
+
+  assemble:
+    name: Assemble final MP4
+    needs:
+      - plan
+      - render
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download rendered parts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: rendered-parts
+          merge-multiple: true
+
+      - name: Join parts and add narration
+        shell: bash
+        env:
+          FILM: ${{ inputs.film }}
+          AUDIO_FILE: ${{ needs.plan.outputs.audio_file }}
+        run: |
+          set -euo pipefail
+          mkdir -p final
+          find rendered-parts -maxdepth 1 -name 'part-*.mp4' -print | sort | sed "s#^#file '${GITHUB_WORKSPACE}/#;s#$#'#" > parts.txt
+
+          ffmpeg -hide_banner -y \
+            -f concat -safe 0 -i parts.txt \
+            -i "films/${FILM}/public/${AUDIO_FILE}" \
+            -map 0:v:0 -map 1:a:0 \
+            -c:v copy \
+            -c:a aac -b:a 192k \
+            -movflags +faststart \
+            -shortest \
+            "final/${FILM}.mp4"
+
+          ffprobe -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=index,codec_name,codec_type,width,height,r_frame_rate \
+            -of json \
+            "final/${FILM}.mp4" | tee "final/${FILM}-media-info.json"
+
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.film }}-final
+          path: final/
+          if-no-files-found: error
+          retention-days: 1
+

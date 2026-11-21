@@ -146,6 +146,11 @@ jobs:
           path: rendered-parts
           merge-multiple: true
 
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
       - name: Join parts and add narration
         shell: bash
         env:

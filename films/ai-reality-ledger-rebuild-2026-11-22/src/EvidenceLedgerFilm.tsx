@@ -41,6 +41,7 @@ const chapters: Chapter[] = [
 ];
 
 const chapterFor = (p: number) => chapters.find((c) => p >= c.from && p <= c.to) ?? chapters[0];
+const headlineFor = (items: Word[]) => items.slice(0, 6).map((w) => w.word).join(" ").replace(/[.,!?—–:;]/g, "").toUpperCase();
 const clamp = (v: number) => Math.max(0, Math.min(1, v));
 const easeOut = (v: number) => Easing.bezier(0.22, 1, 0.36, 1)(clamp(v));
 const easeInOut = (v: number) => Easing.bezier(0.65, 0, 0.35, 1)(clamp(v));
@@ -80,7 +81,7 @@ const Header: React.FC<{chapter: Chapter; frame: number; duration: number; numbe
   </>;
 };
 
-const LedgerCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number}> = ({chapter, frame, duration, paragraph}) => {
+const LedgerCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number; headline: string}> = ({chapter, frame, duration, paragraph, headline}) => {
   const p = clamp(frame / duration);
   const pulse = .72 + .28 * Math.sin(frame / 18);
   const side = paragraph % 2 ? "right" : "left";
@@ -88,7 +89,7 @@ const LedgerCanvas: React.FC<{chapter: Chapter; frame: number; duration: number;
     <CropImage src={chapter.asset} frame={frame} duration={duration} variant={paragraph}/>
     <div style={{position:"absolute",inset:0,background:ink,opacity:0.33}}/>
     <div style={{position:"absolute",left:side === "left" ? 96 : "auto",right:side === "right" ? 96 : "auto",top:250,width:650,height:470,background:paper,opacity:0.96,border:`2px solid ${ink}`,transform:`translateY(${(1-enter(frame,10,22))*28}px)`,transformOrigin:"center"}}/>
-    <div style={{position:"absolute",left:side === "left" ? 130 : "auto",right:side === "right" ? 130 : "auto",top:286,width:580,fontFamily:"Instrument Serif",fontSize:84,lineHeight:.9,color:ink,letterSpacing:"-0.04em",opacity:enter(frame,16,24)}}>{chapter.title}</div>
+    <div style={{position:"absolute",left:side === "left" ? 130 : "auto",right:side === "right" ? 130 : "auto",top:286,width:580,fontFamily:"Instrument Serif",fontSize:67,lineHeight:.91,color:ink,letterSpacing:"-0.04em",opacity:enter(frame,16,24)}}>{headline}</div>
     <div style={{position:"absolute",left:side === "left" ? 130 : "auto",right:side === "right" ? 130 : "auto",top:504,width:520,height:2,background:blue,transformOrigin:"left",transform:`scaleX(${enter(frame,22,22)})`}}/>
     <div style={{position:"absolute",left:side === "left" ? 130 : "auto",right:side === "right" ? 130 : "auto",top:548,display:"flex",gap:15,opacity:enter(frame,30,20)}}>
       {["наблюдать","сверять","решать"].map((v,i) => <div key={v} style={{fontFamily:"Space Grotesk",fontSize:21,color:i===1?orange:ink,letterSpacing:".05em",padding:"10px 0",borderBottom:`3px solid ${i===1?orange:blue}`,transform:`translateY(${Math.sin((frame-i*5)/15)*1.5}px)`}}>{v}</div>)}
@@ -97,12 +98,13 @@ const LedgerCanvas: React.FC<{chapter: Chapter; frame: number; duration: number;
   </>;
 };
 
-const DataCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number}> = ({chapter, frame, duration, paragraph}) => {
+const DataCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number; headline: string}> = ({chapter, frame, duration, paragraph, headline}) => {
   const stages = ["исходные данные", "действие", "проверка", "вывод"];
   const chosen = clamp((frame-14)/22);
   return <>
     <CropImage src={chapter.asset} frame={frame} duration={duration} variant={paragraph}/>
     <div style={{position:"absolute",inset:0,background:paper,opacity:.22}}/>
+    <div style={{position:"absolute",left:96,top:202,width:1040,fontFamily:"Instrument Serif",fontSize:63,lineHeight:.92,color:ink,opacity:enter(frame,14,22),letterSpacing:"-.035em"}}>{headline}</div>
     <div style={{position:"absolute",left:96,right:96,bottom:176,height:260,display:"flex",alignItems:"stretch",gap:14}}>
       {stages.map((label,i) => { const a = enter(frame, 8+i*5, 18) * exit(frame,duration,22); const focus = Math.floor((frame/Math.max(1,duration))*stages.length) === i; return <React.Fragment key={label}>
         <div style={{flex:1,background:focus?blue:paper,border:`2px solid ${blue}`,padding:"25px 25px",opacity:a,transform:`translateY(${(1-a)*30}px)`,display:"flex",flexDirection:"column",justifyContent:"space-between"}}>
@@ -116,27 +118,27 @@ const DataCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; p
   </>;
 };
 
-const DialogueCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number}> = ({chapter, frame, duration, paragraph}) => {
+const DialogueCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number; headline: string}> = ({chapter, frame, duration, paragraph, headline}) => {
   const left = enter(frame,9,20); const right=enter(frame,19,20); const third=enter(frame,31,20);
   return <>
     <CropImage src={chapter.asset} frame={frame} duration={duration} variant={paragraph}/><div style={{position:"absolute",inset:0,background:ink,opacity:.26}}/>
-    <div style={{position:"absolute",left:128,top:286,width:620,background:paper,border:`2px solid ${blue}`,padding:"30px 34px",opacity:left,transform:`translate(${(1-left)*-40}px,${(1-left)*24}px)`}}><div style={{fontFamily:"Space Grotesk",fontSize:18,letterSpacing:".1em",color:blue}}>ВОПРОС</div><div style={{fontFamily:"Instrument Serif",fontSize:54,lineHeight:.96,color:ink,marginTop:14}}>Что именно<br/>мы проверяем?</div></div>
+    <div style={{position:"absolute",left:128,top:286,width:620,background:paper,border:`2px solid ${blue}`,padding:"30px 34px",opacity:left,transform:`translate(${(1-left)*-40}px,${(1-left)*24}px)`}}><div style={{fontFamily:"Space Grotesk",fontSize:18,letterSpacing:".1em",color:blue}}>ТЕКУЩАЯ МЫСЛЬ</div><div style={{fontFamily:"Instrument Serif",fontSize:49,lineHeight:.94,color:ink,marginTop:14}}>{headline}</div></div>
     <div style={{position:"absolute",right:128,top:442,width:590,background:blue,border:`2px solid ${paper}`,padding:"30px 34px",opacity:right,transform:`translate(${(1-right)*40}px,${(1-right)*24}px)`}}><div style={{fontFamily:"Space Grotesk",fontSize:18,letterSpacing:".1em",color:mint}}>ОТВЕТ</div><div style={{fontFamily:"Instrument Serif",fontSize:51,lineHeight:.96,color:paper,marginTop:14}}>Не речь.<br/>Работу.</div></div>
     <div style={{position:"absolute",left:W/2-190,top:730,width:380,fontFamily:"Space Grotesk",fontWeight:700,fontSize:21,letterSpacing:".11em",color:ink,background:orange,padding:"14px 20px",textAlign:"center",opacity:third,transform:`translateY(${(1-third)*20}px)`}}>СВЕРКА КОНТЕКСТА</div>
   </>;
 };
 
-const ResearchCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number}> = ({chapter, frame, duration, paragraph}) => {
+const ResearchCanvas: React.FC<{chapter: Chapter; frame: number; duration: number; paragraph: number; headline: string}> = ({chapter, frame, duration, paragraph, headline}) => {
   const a = enter(frame,12,24); const count = Math.min(5, Math.floor(frame/18)+1);
   return <><CropImage src={chapter.asset} frame={frame} duration={duration} variant={paragraph}/><div style={{position:"absolute",inset:0,background:paper,opacity:.18}}/>
-    <div style={{position:"absolute",left:100,top:220,width:640,background:paper,border:`2px solid ${blue}`,padding:"36px",opacity:a,transform:`translateY(${(1-a)*25}px)`}}><div style={{fontFamily:"Space Grotesk",fontSize:18,fontWeight:700,color:blue,letterSpacing:".1em"}}>ДОКАЗАТЕЛЬСТВО</div><div style={{fontFamily:"Instrument Serif",fontSize:74,lineHeight:.9,color:ink,marginTop:16}}>{chapter.title}</div><div style={{display:"flex",gap:10,marginTop:34}}>{Array.from({length:5},(_,i)=><div key={i} style={{width:88,height:10,background:i<count?orange:mint,opacity:i<count?1:.55}}/>)}</div></div>
+    <div style={{position:"absolute",left:100,top:220,width:640,background:paper,border:`2px solid ${blue}`,padding:"36px",opacity:a,transform:`translateY(${(1-a)*25}px)`}}><div style={{fontFamily:"Space Grotesk",fontSize:18,fontWeight:700,color:blue,letterSpacing:".1em"}}>ДОКАЗАТЕЛЬСТВО</div><div style={{fontFamily:"Instrument Serif",fontSize:62,lineHeight:.9,color:ink,marginTop:16}}>{headline}</div><div style={{display:"flex",gap:10,marginTop:34}}>{Array.from({length:5},(_,i)=><div key={i} style={{width:88,height:10,background:i<count?orange:mint,opacity:i<count?1:.55}}/>)}</div></div>
   </>;
 };
 
 const ParagraphScene: React.FC<{p: typeof paragraphs[number]}> = ({p}) => {
   const frame = useCurrentFrame();
   const chapter = chapterFor(p.id);
-  const common = {chapter, frame, duration:p.duration, paragraph:p.id};
+  const common = {chapter, frame, duration:p.duration, paragraph:p.id, headline: headlineFor(p.words)};
   const visual = chapter.mode === "dialogue" ? <DialogueCanvas {...common}/> : chapter.mode === "research" ? <ResearchCanvas {...common}/> : (["process","exam","systems","agency","toolkit","authorship"].includes(chapter.mode) ? <DataCanvas {...common}/> : <LedgerCanvas {...common}/>);
   return <AbsoluteFill style={{opacity:exit(frame,p.duration,18)}}>{visual}<Header chapter={chapter} frame={frame} duration={p.duration} number={p.id}/><WordCues items={p.words} frame={frame} duration={p.duration}/></AbsoluteFill>;
 };

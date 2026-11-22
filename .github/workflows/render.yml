@@ -17,6 +17,8 @@ on:
           - "4"
           - "8"
           - "12"
+          - "16"
+          - "20"
 
 permissions:
   contents: read
@@ -85,7 +87,10 @@ jobs:
     timeout-minutes: 90
     strategy:
       fail-fast: false
-      max-parallel: 12
+      # Public repositories on GitHub Free can use up to 20 concurrent
+      # standard runners.  Long films are deliberately split to use that
+      # entire free allowance rather than serialising work on one runner.
+      max-parallel: 20
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v5

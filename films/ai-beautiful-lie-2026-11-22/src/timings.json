@@ -1,0 +1,6987 @@
+{
+  "fps": 30,
+  "language": "ru",
+  "language_probability": 1.0,
+  "duration_seconds": 237.08,
+  "duration_frames": 7113,
+  "alignment_model": "faster-whisper-base",
+  "locked_script_word_count": 527,
+  "whisper_word_count": 517,
+  "non_equal_blocks": [
+    {
+      "tag": "replace",
+      "script": [
+        13,
+        16
+      ],
+      "whisper": [
+        13,
+        16
+      ]
+    },
+    {
+      "tag": "insert",
+      "script": [
+        45,
+        45
+      ],
+      "whisper": [
+        45,
+        46
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        46,
+        47
+      ],
+      "whisper": [
+        47,
+        49
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        76,
+        77
+      ],
+      "whisper": [
+        78,
+        79
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        87,
+        91
+      ],
+      "whisper": [
+        89,
+        90
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        96,
+        98
+      ],
+      "whisper": [
+        95,
+        96
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        101,
+        102
+      ],
+      "whisper": [
+        99,
+        100
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        104,
+        106
+      ],
+      "whisper": [
+        102,
+        103
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        115,
+        116
+      ],
+      "whisper": [
+        112,
+        113
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        120,
+        122
+      ],
+      "whisper": [
+        117,
+        119
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        124,
+        125
+      ],
+      "whisper": [
+        121,
+        122
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        131,
+        133
+      ],
+      "whisper": [
+        128,
+        129
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        134,
+        135
+      ],
+      "whisper": [
+        130,
+        131
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        136,
+        139
+      ],
+      "whisper": [
+        132,
+        133
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        142,
+        143
+      ],
+      "whisper": [
+        136,
+        138
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        157,
+        161
+      ],
+      "whisper": [
+        152,
+        155
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        163,
+        165
+      ],
+      "whisper": [
+        157,
+        160
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        166,
+        170
+      ],
+      "whisper": [
+        161,
+        162
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        181,
+        182
+      ],
+      "whisper": [
+        173,
+        174
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        197,
+        201
+      ],
+      "whisper": [
+        189,
+        190
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        205,
+        207
+      ],
+      "whisper": [
+        194,
+        195
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        209,
+        210
+      ],
+      "whisper": [
+        197,
+        198
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        212,
+        214
+      ],
+      "whisper": [
+        200,
+        204
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        216,
+        218
+      ],
+      "whisper": [
+        206,
+        208
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        228,
+        229
+      ],
+      "whisper": [
+        218,
+        219
+      ]
+    },
+    {
+      "tag": "insert",
+      "script": [
+        233,
+        233
+      ],
+      "whisper": [
+        223,
+        224
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        248,
+        249
+      ],
+      "whisper": [
+        239,
+        240
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        254,
+        255
+      ],
+      "whisper": [
+        245,
+        246
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        260,
+        264
+      ],
+      "whisper": [
+        251,
+        252
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        273,
+        274
+      ],
+      "whisper": [
+        261,
+        263
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        278,
+        280
+      ],
+      "whisper": [
+        267,
+        268
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        290,
+        291
+      ],
+      "whisper": [
+        278,
+        280
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        299,
+        300
+      ],
+      "whisper": [
+        288,
+        289
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        328,
+        329
+      ],
+      "whisper": [
+        317,
+        319
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        332,
+        336
+      ],
+      "whisper": [
+        322,
+        323
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        338,
+        341
+      ],
+      "whisper": [
+        325,
+        326
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        346,
+        347
+      ],
+      "whisper": [
+        331,
+        333
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        353,
+        354
+      ],
+      "whisper": [
+        339,
+        340
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        360,
+        361
+      ],
+      "whisper": [
+        346,
+        347
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        364,
+        365
+      ],
+      "whisper": [
+        350,
+        352
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        378,
+        379
+      ],
+      "whisper": [
+        365,
+        366
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        392,
+        393
+      ],
+      "whisper": [
+        379,
+        381
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        398,
+        399
+      ],
+      "whisper": [
+        386,
+        388
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        411,
+        412
+      ],
+      "whisper": [
+        400,
+        401
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        417,
+        418
+      ],
+      "whisper": [
+        406,
+        408
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        420,
+        421
+      ],
+      "whisper": [
+        410,
+        411
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        432,
+        433
+      ],
+      "whisper": [
+        422,
+        423
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        435,
+        436
+      ],
+      "whisper": [
+        425,
+        426
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        455,
+        457
+      ],
+      "whisper": [
+        445,
+        446
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        458,
+        459
+      ],
+      "whisper": [
+        447,
+        448
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        463,
+        464
+      ],
+      "whisper": [
+        452,
+        454
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        465,
+        466
+      ],
+      "whisper": [
+        455,
+        456
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        471,
+        472
+      ],
+      "whisper": [
+        461,
+        462
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        473,
+        474
+      ],
+      "whisper": [
+        463,
+        464
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        481,
+        484
+      ],
+      "whisper": [
+        471,
+        474
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        485,
+        486
+      ],
+      "whisper": [
+        475,
+        476
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        495,
+        496
+      ],
+      "whisper": [
+        485,
+        486
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        507,
+        508
+      ],
+      "whisper": [
+        497,
+        498
+      ]
+    },
+    {
+      "tag": "replace",
+      "script": [
+        511,
+        512
+      ],
+      "whisper": [
+        501,
+        502
+      ]
+    }
+  ],
+  "words": [
+    {
+      "index": 0,
+      "paragraph": 1,
+      "word": "Хотите",
+      "normalized": "хотите",
+      "start": 0.0,
+      "end": 0.54,
+      "probability": 0.6382,
+      "alignment": "exact",
+      "start_frame": 0,
+      "end_frame": 16
+    },
+    {
+      "index": 1,
+      "paragraph": 1,
+      "word": "услышать",
+      "normalized": "услышать",
+      "start": 0.54,
+      "end": 1.0,
+      "probability": 0.9898,
+      "alignment": "exact",
+      "start_frame": 16,
+      "end_frame": 30
+    },
+    {
+      "index": 2,
+      "paragraph": 1,
+      "word": "неприятную",
+      "normalized": "неприятную",
+      "start": 1.0,
+      "end": 1.62,
+      "probability": 0.9759,
+      "alignment": "exact",
+      "start_frame": 30,
+      "end_frame": 49
+    },
+    {
+      "index": 3,
+      "paragraph": 1,
+      "word": "правду",
+      "normalized": "правду",
+      "start": 1.62,
+      "end": 2.0,
+      "probability": 0.8702,
+      "alignment": "exact",
+      "start_frame": 49,
+      "end_frame": 60
+    },
+    {
+      "index": 4,
+      "paragraph": 1,
+      "word": "Прямо",
+      "normalized": "прямо",
+      "start": 2.76,
+      "end": 3.04,
+      "probability": 0.9053,
+      "alignment": "exact",
+      "start_frame": 83,
+      "end_frame": 91
+    },
+    {
+      "index": 5,
+      "paragraph": 1,
+      "word": "сейчас",
+      "normalized": "сейчас",
+      "start": 3.04,
+      "end": 3.48,
+      "probability": 0.9939,
+      "alignment": "exact",
+      "start_frame": 91,
+      "end_frame": 104
+    },
+    {
+      "index": 6,
+      "paragraph": 1,
+      "word": "миллионы",
+      "normalized": "миллионы",
+      "start": 3.48,
+      "end": 4.24,
+      "probability": 0.6316,
+      "alignment": "exact",
+      "start_frame": 104,
+      "end_frame": 127
+    },
+    {
+      "index": 7,
+      "paragraph": 1,
+      "word": "людей",
+      "normalized": "людей",
+      "start": 4.24,
+      "end": 4.6,
+      "probability": 0.9988,
+      "alignment": "exact",
+      "start_frame": 127,
+      "end_frame": 138
+    },
+    {
+      "index": 8,
+      "paragraph": 1,
+      "word": "доверяют",
+      "normalized": "доверяют",
+      "start": 4.6,
+      "end": 5.1,
+      "probability": 0.992,
+      "alignment": "exact",
+      "start_frame": 138,
+      "end_frame": 153
+    },
+    {
+      "index": 9,
+      "paragraph": 1,
+      "word": "работу",
+      "normalized": "работу",
+      "start": 5.1,
+      "end": 5.56,
+      "probability": 0.9992,
+      "alignment": "exact",
+      "start_frame": 153,
+      "end_frame": 167
+    },
+    {
+      "index": 10,
+      "paragraph": 1,
+      "word": "деньги",
+      "normalized": "деньги",
+      "start": 5.96,
+      "end": 6.24,
+      "probability": 0.9939,
+      "alignment": "exact",
+      "start_frame": 179,
+      "end_frame": 187
+    },
+    {
+      "index": 11,
+      "paragraph": 1,
+      "word": "и",
+      "normalized": "и",
+      "start": 6.68,
+      "end": 6.74,
+      "probability": 0.9753,
+      "alignment": "exact",
+      "start_frame": 200,
+      "end_frame": 202
+    },
+    {
+      "index": 12,
+      "paragraph": 1,
+      "word": "даже",
+      "normalized": "даже",
+      "start": 6.74,
+      "end": 6.94,
+      "probability": 0.9951,
+      "alignment": "exact",
+      "start_frame": 202,
+      "end_frame": 208
+    },
+    {
+      "index": 13,
+      "paragraph": 1,
+      "word": "здоровье",
+      "normalized": "здоровье",
+      "start": 6.94,
+      "end": 7.433,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 208,
+      "end_frame": 223
+    },
+    {
+      "index": 14,
+      "paragraph": 1,
+      "word": "программе",
+      "normalized": "программе",
+      "start": 7.433,
+      "end": 7.927,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 223,
+      "end_frame": 238
+    },
+    {
+      "index": 15,
+      "paragraph": 1,
+      "word": "которая",
+      "normalized": "которая",
+      "start": 7.927,
+      "end": 8.42,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 238,
+      "end_frame": 253
+    },
+    {
+      "index": 16,
+      "paragraph": 1,
+      "word": "в",
+      "normalized": "в",
+      "start": 8.42,
+      "end": 8.7,
+      "probability": 0.9358,
+      "alignment": "exact",
+      "start_frame": 253,
+      "end_frame": 261
+    },
+    {
+      "index": 17,
+      "paragraph": 1,
+      "word": "любой",
+      "normalized": "любой",
+      "start": 8.7,
+      "end": 8.86,
+      "probability": 0.9926,
+      "alignment": "exact",
+      "start_frame": 261,
+      "end_frame": 266
+    },
+    {
+      "index": 18,
+      "paragraph": 1,
+      "word": "момент",
+      "normalized": "момент",
+      "start": 8.86,
+      "end": 9.24,
+      "probability": 0.9984,
+      "alignment": "exact",
+      "start_frame": 266,
+      "end_frame": 277
+    },
+    {
+      "index": 19,
+      "paragraph": 1,
+      "word": "может",
+      "normalized": "может",
+      "start": 9.24,
+      "end": 9.56,
+      "probability": 0.9141,
+      "alignment": "exact",
+      "start_frame": 277,
+      "end_frame": 287
+    },
+    {
+      "index": 20,
+      "paragraph": 1,
+      "word": "уверенно",
+      "normalized": "уверенно",
+      "start": 9.56,
+      "end": 10.12,
+      "probability": 0.8903,
+      "alignment": "exact",
+      "start_frame": 287,
+      "end_frame": 304
+    },
+    {
+      "index": 21,
+      "paragraph": 1,
+      "word": "соврать",
+      "normalized": "соврать",
+      "start": 10.12,
+      "end": 10.46,
+      "probability": 0.9397,
+      "alignment": "exact",
+      "start_frame": 304,
+      "end_frame": 314
+    },
+    {
+      "index": 22,
+      "paragraph": 1,
+      "word": "вам",
+      "normalized": "вам",
+      "start": 10.46,
+      "end": 10.68,
+      "probability": 0.8603,
+      "alignment": "exact",
+      "start_frame": 314,
+      "end_frame": 320
+    },
+    {
+      "index": 23,
+      "paragraph": 1,
+      "word": "в",
+      "normalized": "в",
+      "start": 10.68,
+      "end": 10.8,
+      "probability": 0.9926,
+      "alignment": "exact",
+      "start_frame": 320,
+      "end_frame": 324
+    },
+    {
+      "index": 24,
+      "paragraph": 1,
+      "word": "лицо",
+      "normalized": "лицо",
+      "start": 10.8,
+      "end": 11.04,
+      "probability": 0.7996,
+      "alignment": "exact",
+      "start_frame": 324,
+      "end_frame": 331
+    },
+    {
+      "index": 25,
+      "paragraph": 1,
+      "word": "И",
+      "normalized": "и",
+      "start": 11.8,
+      "end": 12.14,
+      "probability": 0.982,
+      "alignment": "exact",
+      "start_frame": 354,
+      "end_frame": 364
+    },
+    {
+      "index": 26,
+      "paragraph": 1,
+      "word": "самое",
+      "normalized": "самое",
+      "start": 12.14,
+      "end": 12.36,
+      "probability": 0.9782,
+      "alignment": "exact",
+      "start_frame": 364,
+      "end_frame": 371
+    },
+    {
+      "index": 27,
+      "paragraph": 1,
+      "word": "страшное",
+      "normalized": "страшное",
+      "start": 12.36,
+      "end": 12.82,
+      "probability": 0.9855,
+      "alignment": "exact",
+      "start_frame": 371,
+      "end_frame": 385
+    },
+    {
+      "index": 28,
+      "paragraph": 1,
+      "word": "что",
+      "normalized": "что",
+      "start": 12.88,
+      "end": 13.0,
+      "probability": 0.9943,
+      "alignment": "exact",
+      "start_frame": 386,
+      "end_frame": 390
+    },
+    {
+      "index": 29,
+      "paragraph": 1,
+      "word": "она",
+      "normalized": "она",
+      "start": 13.0,
+      "end": 13.2,
+      "probability": 0.9622,
+      "alignment": "exact",
+      "start_frame": 390,
+      "end_frame": 396
+    },
+    {
+      "index": 30,
+      "paragraph": 1,
+      "word": "сделает",
+      "normalized": "сделает",
+      "start": 13.2,
+      "end": 13.6,
+      "probability": 0.9833,
+      "alignment": "exact",
+      "start_frame": 396,
+      "end_frame": 408
+    },
+    {
+      "index": 31,
+      "paragraph": 1,
+      "word": "это",
+      "normalized": "это",
+      "start": 13.6,
+      "end": 13.8,
+      "probability": 0.3908,
+      "alignment": "exact",
+      "start_frame": 408,
+      "end_frame": 414
+    },
+    {
+      "index": 32,
+      "paragraph": 1,
+      "word": "очень",
+      "normalized": "очень",
+      "start": 13.8,
+      "end": 14.32,
+      "probability": 0.9439,
+      "alignment": "exact",
+      "start_frame": 414,
+      "end_frame": 430
+    },
+    {
+      "index": 33,
+      "paragraph": 1,
+      "word": "красиво",
+      "normalized": "красиво",
+      "start": 14.32,
+      "end": 15.0,
+      "probability": 0.9919,
+      "alignment": "exact",
+      "start_frame": 430,
+      "end_frame": 450
+    },
+    {
+      "index": 34,
+      "paragraph": 2,
+      "word": "Подождите",
+      "normalized": "подождите",
+      "start": 15.72,
+      "end": 16.12,
+      "probability": 0.9094,
+      "alignment": "exact",
+      "start_frame": 472,
+      "end_frame": 484
+    },
+    {
+      "index": 35,
+      "paragraph": 2,
+      "word": "я",
+      "normalized": "я",
+      "start": 16.52,
+      "end": 16.62,
+      "probability": 0.9874,
+      "alignment": "exact",
+      "start_frame": 496,
+      "end_frame": 499
+    },
+    {
+      "index": 36,
+      "paragraph": 2,
+      "word": "не",
+      "normalized": "не",
+      "start": 16.62,
+      "end": 16.74,
+      "probability": 0.9842,
+      "alignment": "exact",
+      "start_frame": 499,
+      "end_frame": 502
+    },
+    {
+      "index": 37,
+      "paragraph": 2,
+      "word": "говорю",
+      "normalized": "говорю",
+      "start": 16.74,
+      "end": 16.92,
+      "probability": 0.9851,
+      "alignment": "exact",
+      "start_frame": 502,
+      "end_frame": 508
+    },
+    {
+      "index": 38,
+      "paragraph": 2,
+      "word": "что",
+      "normalized": "что",
+      "start": 17.02,
+      "end": 17.12,
+      "probability": 0.9948,
+      "alignment": "exact",
+      "start_frame": 511,
+      "end_frame": 514
+    },
+    {
+      "index": 39,
+      "paragraph": 2,
+      "word": "искусственный",
+      "normalized": "искусственный",
+      "start": 17.12,
+      "end": 17.68,
+      "probability": 0.9885,
+      "alignment": "exact",
+      "start_frame": 514,
+      "end_frame": 530
+    },
+    {
+      "index": 40,
+      "paragraph": 2,
+      "word": "интеллект",
+      "normalized": "интеллект",
+      "start": 17.68,
+      "end": 18.04,
+      "probability": 0.9642,
+      "alignment": "exact",
+      "start_frame": 530,
+      "end_frame": 541
+    },
+    {
+      "index": 41,
+      "paragraph": 2,
+      "word": "бесполезен",
+      "normalized": "бесполезен",
+      "start": 18.04,
+      "end": 18.7,
+      "probability": 0.9033,
+      "alignment": "exact",
+      "start_frame": 541,
+      "end_frame": 561
+    },
+    {
+      "index": 42,
+      "paragraph": 2,
+      "word": "Я",
+      "normalized": "я",
+      "start": 19.04,
+      "end": 19.14,
+      "probability": 0.9774,
+      "alignment": "exact",
+      "start_frame": 571,
+      "end_frame": 574
+    },
+    {
+      "index": 43,
+      "paragraph": 2,
+      "word": "говорю",
+      "normalized": "говорю",
+      "start": 19.14,
+      "end": 19.32,
+      "probability": 0.9943,
+      "alignment": "exact",
+      "start_frame": 574,
+      "end_frame": 580
+    },
+    {
+      "index": 44,
+      "paragraph": 2,
+      "word": "что",
+      "normalized": "что",
+      "start": 19.36,
+      "end": 19.54,
+      "probability": 0.9963,
+      "alignment": "exact",
+      "start_frame": 581,
+      "end_frame": 586
+    },
+    {
+      "index": 45,
+      "paragraph": 2,
+      "word": "нас",
+      "normalized": "нас",
+      "start": 19.68,
+      "end": 19.68,
+      "probability": 0.995,
+      "alignment": "exact",
+      "start_frame": 590,
+      "end_frame": 591
+    },
+    {
+      "index": 46,
+      "paragraph": 2,
+      "word": "вовсю",
+      "normalized": "вовсю",
+      "start": 19.68,
+      "end": 20.2,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 590,
+      "end_frame": 606
+    },
+    {
+      "index": 47,
+      "paragraph": 2,
+      "word": "обманывают",
+      "normalized": "обманывают",
+      "start": 20.2,
+      "end": 20.72,
+      "probability": 0.9311,
+      "alignment": "exact",
+      "start_frame": 606,
+      "end_frame": 622
+    },
+    {
+      "index": 48,
+      "paragraph": 2,
+      "word": "К",
+      "normalized": "к",
+      "start": 21.32,
+      "end": 21.66,
+      "probability": 0.2466,
+      "alignment": "exact",
+      "start_frame": 640,
+      "end_frame": 650
+    },
+    {
+      "index": 49,
+      "paragraph": 2,
+      "word": "концу",
+      "normalized": "концу",
+      "start": 21.66,
+      "end": 21.86,
+      "probability": 0.7968,
+      "alignment": "exact",
+      "start_frame": 650,
+      "end_frame": 656
+    },
+    {
+      "index": 50,
+      "paragraph": 2,
+      "word": "видео",
+      "normalized": "видео",
+      "start": 21.86,
+      "end": 22.08,
+      "probability": 0.9223,
+      "alignment": "exact",
+      "start_frame": 656,
+      "end_frame": 662
+    },
+    {
+      "index": 51,
+      "paragraph": 2,
+      "word": "вы",
+      "normalized": "вы",
+      "start": 22.08,
+      "end": 22.24,
+      "probability": 0.8717,
+      "alignment": "exact",
+      "start_frame": 662,
+      "end_frame": 667
+    },
+    {
+      "index": 52,
+      "paragraph": 2,
+      "word": "поймёте",
+      "normalized": "поймете",
+      "start": 22.24,
+      "end": 22.62,
+      "probability": 0.9061,
+      "alignment": "exact",
+      "start_frame": 667,
+      "end_frame": 679
+    },
+    {
+      "index": 53,
+      "paragraph": 2,
+      "word": "где",
+      "normalized": "где",
+      "start": 22.62,
+      "end": 22.88,
+      "probability": 0.996,
+      "alignment": "exact",
+      "start_frame": 679,
+      "end_frame": 686
+    },
+    {
+      "index": 54,
+      "paragraph": 2,
+      "word": "именно",
+      "normalized": "именно",
+      "start": 22.88,
+      "end": 23.26,
+      "probability": 0.9913,
+      "alignment": "exact",
+      "start_frame": 686,
+      "end_frame": 698
+    },
+    {
+      "index": 55,
+      "paragraph": 2,
+      "word": "А",
+      "normalized": "а",
+      "start": 23.7,
+      "end": 23.78,
+      "probability": 0.976,
+      "alignment": "exact",
+      "start_frame": 711,
+      "end_frame": 713
+    },
+    {
+      "index": 56,
+      "paragraph": 2,
+      "word": "в",
+      "normalized": "в",
+      "start": 23.78,
+      "end": 23.86,
+      "probability": 0.9949,
+      "alignment": "exact",
+      "start_frame": 713,
+      "end_frame": 716
+    },
+    {
+      "index": 57,
+      "paragraph": 2,
+      "word": "самом",
+      "normalized": "самом",
+      "start": 23.86,
+      "end": 24.04,
+      "probability": 0.9956,
+      "alignment": "exact",
+      "start_frame": 716,
+      "end_frame": 721
+    },
+    {
+      "index": 58,
+      "paragraph": 2,
+      "word": "финале",
+      "normalized": "финале",
+      "start": 24.04,
+      "end": 24.42,
+      "probability": 0.9101,
+      "alignment": "exact",
+      "start_frame": 721,
+      "end_frame": 733
+    },
+    {
+      "index": 59,
+      "paragraph": 2,
+      "word": "я",
+      "normalized": "я",
+      "start": 24.42,
+      "end": 24.56,
+      "probability": 0.9396,
+      "alignment": "exact",
+      "start_frame": 733,
+      "end_frame": 737
+    },
+    {
+      "index": 60,
+      "paragraph": 2,
+      "word": "расскажу",
+      "normalized": "расскажу",
+      "start": 24.56,
+      "end": 24.9,
+      "probability": 0.9987,
+      "alignment": "exact",
+      "start_frame": 737,
+      "end_frame": 747
+    },
+    {
+      "index": 61,
+      "paragraph": 2,
+      "word": "про",
+      "normalized": "про",
+      "start": 24.9,
+      "end": 25.12,
+      "probability": 0.9981,
+      "alignment": "exact",
+      "start_frame": 747,
+      "end_frame": 754
+    },
+    {
+      "index": 62,
+      "paragraph": 2,
+      "word": "одну",
+      "normalized": "одну",
+      "start": 25.12,
+      "end": 25.46,
+      "probability": 0.9793,
+      "alignment": "exact",
+      "start_frame": 754,
+      "end_frame": 764
+    },
+    {
+      "index": 63,
+      "paragraph": 2,
+      "word": "привычку",
+      "normalized": "привычку",
+      "start": 25.46,
+      "end": 25.88,
+      "probability": 0.978,
+      "alignment": "exact",
+      "start_frame": 764,
+      "end_frame": 776
+    },
+    {
+      "index": 64,
+      "paragraph": 2,
+      "word": "которая",
+      "normalized": "которая",
+      "start": 25.88,
+      "end": 26.14,
+      "probability": 0.9528,
+      "alignment": "exact",
+      "start_frame": 776,
+      "end_frame": 784
+    },
+    {
+      "index": 65,
+      "paragraph": 2,
+      "word": "защитит",
+      "normalized": "защитит",
+      "start": 26.14,
+      "end": 27.02,
+      "probability": 0.9794,
+      "alignment": "exact",
+      "start_frame": 784,
+      "end_frame": 811
+    },
+    {
+      "index": 66,
+      "paragraph": 2,
+      "word": "вас",
+      "normalized": "вас",
+      "start": 27.02,
+      "end": 27.22,
+      "probability": 0.9809,
+      "alignment": "exact",
+      "start_frame": 811,
+      "end_frame": 817
+    },
+    {
+      "index": 67,
+      "paragraph": 2,
+      "word": "от",
+      "normalized": "от",
+      "start": 27.22,
+      "end": 27.4,
+      "probability": 0.9951,
+      "alignment": "exact",
+      "start_frame": 817,
+      "end_frame": 822
+    },
+    {
+      "index": 68,
+      "paragraph": 2,
+      "word": "главной",
+      "normalized": "главной",
+      "start": 27.4,
+      "end": 27.84,
+      "probability": 0.8922,
+      "alignment": "exact",
+      "start_frame": 822,
+      "end_frame": 835
+    },
+    {
+      "index": 69,
+      "paragraph": 2,
+      "word": "ловушки",
+      "normalized": "ловушки",
+      "start": 27.84,
+      "end": 28.24,
+      "probability": 0.8383,
+      "alignment": "exact",
+      "start_frame": 835,
+      "end_frame": 847
+    },
+    {
+      "index": 70,
+      "paragraph": 2,
+      "word": "эпохи",
+      "normalized": "эпохи",
+      "start": 28.24,
+      "end": 28.64,
+      "probability": 0.895,
+      "alignment": "exact",
+      "start_frame": 847,
+      "end_frame": 859
+    },
+    {
+      "index": 71,
+      "paragraph": 2,
+      "word": "нейросетей",
+      "normalized": "нейросетей",
+      "start": 28.64,
+      "end": 29.22,
+      "probability": 0.8286,
+      "alignment": "exact",
+      "start_frame": 859,
+      "end_frame": 877
+    },
+    {
+      "index": 72,
+      "paragraph": 2,
+      "word": "Не",
+      "normalized": "не",
+      "start": 29.22,
+      "end": 29.78,
+      "probability": 0.2846,
+      "alignment": "exact",
+      "start_frame": 877,
+      "end_frame": 893
+    },
+    {
+      "index": 73,
+      "paragraph": 2,
+      "word": "пропустите",
+      "normalized": "пропустите",
+      "start": 29.78,
+      "end": 30.34,
+      "probability": 0.9377,
+      "alignment": "exact",
+      "start_frame": 893,
+      "end_frame": 910
+    },
+    {
+      "index": 74,
+      "paragraph": 3,
+      "word": "Начнём",
+      "normalized": "начнем",
+      "start": 31.4,
+      "end": 31.78,
+      "probability": 0.6903,
+      "alignment": "exact",
+      "start_frame": 942,
+      "end_frame": 953
+    },
+    {
+      "index": 75,
+      "paragraph": 3,
+      "word": "с",
+      "normalized": "с",
+      "start": 31.78,
+      "end": 31.92,
+      "probability": 0.8264,
+      "alignment": "exact",
+      "start_frame": 953,
+      "end_frame": 958
+    },
+    {
+      "index": 76,
+      "paragraph": 3,
+      "word": "истории",
+      "normalized": "истории",
+      "start": 31.92,
+      "end": 32.32,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 958,
+      "end_frame": 970
+    },
+    {
+      "index": 77,
+      "paragraph": 3,
+      "word": "от",
+      "normalized": "от",
+      "start": 32.4,
+      "end": 32.42,
+      "probability": 0.9135,
+      "alignment": "exact",
+      "start_frame": 972,
+      "end_frame": 973
+    },
+    {
+      "index": 78,
+      "paragraph": 3,
+      "word": "которой",
+      "normalized": "которой",
+      "start": 32.42,
+      "end": 32.68,
+      "probability": 0.9935,
+      "alignment": "exact",
+      "start_frame": 973,
+      "end_frame": 980
+    },
+    {
+      "index": 79,
+      "paragraph": 3,
+      "word": "у",
+      "normalized": "у",
+      "start": 32.68,
+      "end": 32.96,
+      "probability": 0.9648,
+      "alignment": "exact",
+      "start_frame": 980,
+      "end_frame": 989
+    },
+    {
+      "index": 80,
+      "paragraph": 3,
+      "word": "юристов",
+      "normalized": "юристов",
+      "start": 32.96,
+      "end": 33.36,
+      "probability": 0.8556,
+      "alignment": "exact",
+      "start_frame": 989,
+      "end_frame": 1001
+    },
+    {
+      "index": 81,
+      "paragraph": 3,
+      "word": "до",
+      "normalized": "до",
+      "start": 33.36,
+      "end": 33.52,
+      "probability": 0.9863,
+      "alignment": "exact",
+      "start_frame": 1001,
+      "end_frame": 1006
+    },
+    {
+      "index": 82,
+      "paragraph": 3,
+      "word": "сих",
+      "normalized": "сих",
+      "start": 33.52,
+      "end": 33.74,
+      "probability": 0.9903,
+      "alignment": "exact",
+      "start_frame": 1006,
+      "end_frame": 1012
+    },
+    {
+      "index": 83,
+      "paragraph": 3,
+      "word": "пор",
+      "normalized": "пор",
+      "start": 33.74,
+      "end": 33.96,
+      "probability": 0.9935,
+      "alignment": "exact",
+      "start_frame": 1012,
+      "end_frame": 1019
+    },
+    {
+      "index": 84,
+      "paragraph": 3,
+      "word": "холодеет",
+      "normalized": "холодеет",
+      "start": 33.96,
+      "end": 34.42,
+      "probability": 0.8891,
+      "alignment": "exact",
+      "start_frame": 1019,
+      "end_frame": 1033
+    },
+    {
+      "index": 85,
+      "paragraph": 3,
+      "word": "спина",
+      "normalized": "спина",
+      "start": 34.42,
+      "end": 34.68,
+      "probability": 0.8709,
+      "alignment": "exact",
+      "start_frame": 1033,
+      "end_frame": 1040
+    },
+    {
+      "index": 86,
+      "paragraph": 3,
+      "word": "В",
+      "normalized": "в",
+      "start": 35.44,
+      "end": 35.54,
+      "probability": 0.9898,
+      "alignment": "exact",
+      "start_frame": 1063,
+      "end_frame": 1066
+    },
+    {
+      "index": 87,
+      "paragraph": 3,
+      "word": "две",
+      "normalized": "две",
+      "start": 35.54,
+      "end": 35.74,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1066,
+      "end_frame": 1072
+    },
+    {
+      "index": 88,
+      "paragraph": 3,
+      "word": "тысячи",
+      "normalized": "тысячи",
+      "start": 35.74,
+      "end": 35.94,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1072,
+      "end_frame": 1078
+    },
+    {
+      "index": 89,
+      "paragraph": 3,
+      "word": "двадцать",
+      "normalized": "двадцать",
+      "start": 35.94,
+      "end": 36.14,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1078,
+      "end_frame": 1084
+    },
+    {
+      "index": 90,
+      "paragraph": 3,
+      "word": "третьем",
+      "normalized": "третьем",
+      "start": 36.14,
+      "end": 36.34,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1084,
+      "end_frame": 1090
+    },
+    {
+      "index": 91,
+      "paragraph": 3,
+      "word": "году",
+      "normalized": "году",
+      "start": 36.34,
+      "end": 36.98,
+      "probability": 0.8655,
+      "alignment": "exact",
+      "start_frame": 1090,
+      "end_frame": 1109
+    },
+    {
+      "index": 92,
+      "paragraph": 3,
+      "word": "американский",
+      "normalized": "американский",
+      "start": 36.98,
+      "end": 37.72,
+      "probability": 0.6977,
+      "alignment": "exact",
+      "start_frame": 1109,
+      "end_frame": 1132
+    },
+    {
+      "index": 93,
+      "paragraph": 3,
+      "word": "адвокат",
+      "normalized": "адвокат",
+      "start": 37.72,
+      "end": 38.06,
+      "probability": 0.9718,
+      "alignment": "exact",
+      "start_frame": 1132,
+      "end_frame": 1142
+    },
+    {
+      "index": 94,
+      "paragraph": 3,
+      "word": "принёс",
+      "normalized": "принес",
+      "start": 38.06,
+      "end": 38.38,
+      "probability": 0.8279,
+      "alignment": "exact",
+      "start_frame": 1142,
+      "end_frame": 1151
+    },
+    {
+      "index": 95,
+      "paragraph": 3,
+      "word": "в",
+      "normalized": "в",
+      "start": 38.38,
+      "end": 38.54,
+      "probability": 0.924,
+      "alignment": "exact",
+      "start_frame": 1151,
+      "end_frame": 1156
+    },
+    {
+      "index": 96,
+      "paragraph": 3,
+      "word": "суд",
+      "normalized": "суд",
+      "start": 38.54,
+      "end": 38.82,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1156,
+      "end_frame": 1165
+    },
+    {
+      "index": 97,
+      "paragraph": 3,
+      "word": "Нью-Йорка",
+      "normalized": "ньюйорка",
+      "start": 38.82,
+      "end": 39.1,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1165,
+      "end_frame": 1173
+    },
+    {
+      "index": 98,
+      "paragraph": 3,
+      "word": "документ",
+      "normalized": "документ",
+      "start": 39.1,
+      "end": 39.54,
+      "probability": 0.9834,
+      "alignment": "exact",
+      "start_frame": 1173,
+      "end_frame": 1186
+    },
+    {
+      "index": 99,
+      "paragraph": 3,
+      "word": "с",
+      "normalized": "с",
+      "start": 39.54,
+      "end": 40.0,
+      "probability": 0.9191,
+      "alignment": "exact",
+      "start_frame": 1186,
+      "end_frame": 1200
+    },
+    {
+      "index": 100,
+      "paragraph": 3,
+      "word": "судебными",
+      "normalized": "судебными",
+      "start": 40.0,
+      "end": 40.4,
+      "probability": 0.9672,
+      "alignment": "exact",
+      "start_frame": 1200,
+      "end_frame": 1212
+    },
+    {
+      "index": 101,
+      "paragraph": 3,
+      "word": "прецедентами",
+      "normalized": "прецедентами",
+      "start": 40.4,
+      "end": 41.12,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1212,
+      "end_frame": 1234
+    },
+    {
+      "index": 102,
+      "paragraph": 3,
+      "word": "Красивыми",
+      "normalized": "красивыми",
+      "start": 41.74,
+      "end": 42.46,
+      "probability": 0.901,
+      "alignment": "exact",
+      "start_frame": 1252,
+      "end_frame": 1274
+    },
+    {
+      "index": 103,
+      "paragraph": 3,
+      "word": "убедительными",
+      "normalized": "убедительными",
+      "start": 42.9,
+      "end": 43.52,
+      "probability": 0.9746,
+      "alignment": "exact",
+      "start_frame": 1287,
+      "end_frame": 1306
+    },
+    {
+      "index": 104,
+      "paragraph": 3,
+      "word": "со",
+      "normalized": "со",
+      "start": 43.98,
+      "end": 44.29,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1319,
+      "end_frame": 1329
+    },
+    {
+      "index": 105,
+      "paragraph": 3,
+      "word": "ссылками",
+      "normalized": "ссылками",
+      "start": 44.29,
+      "end": 44.6,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1329,
+      "end_frame": 1338
+    },
+    {
+      "index": 106,
+      "paragraph": 3,
+      "word": "Только",
+      "normalized": "только",
+      "start": 45.18,
+      "end": 45.6,
+      "probability": 0.9763,
+      "alignment": "exact",
+      "start_frame": 1355,
+      "end_frame": 1368
+    },
+    {
+      "index": 107,
+      "paragraph": 3,
+      "word": "вот",
+      "normalized": "вот",
+      "start": 45.6,
+      "end": 45.76,
+      "probability": 0.9927,
+      "alignment": "exact",
+      "start_frame": 1368,
+      "end_frame": 1373
+    },
+    {
+      "index": 108,
+      "paragraph": 3,
+      "word": "этих",
+      "normalized": "этих",
+      "start": 45.76,
+      "end": 45.94,
+      "probability": 0.9718,
+      "alignment": "exact",
+      "start_frame": 1373,
+      "end_frame": 1378
+    },
+    {
+      "index": 109,
+      "paragraph": 3,
+      "word": "дел",
+      "normalized": "дел",
+      "start": 45.94,
+      "end": 46.1,
+      "probability": 0.9104,
+      "alignment": "exact",
+      "start_frame": 1378,
+      "end_frame": 1383
+    },
+    {
+      "index": 110,
+      "paragraph": 3,
+      "word": "никогда",
+      "normalized": "никогда",
+      "start": 46.1,
+      "end": 46.44,
+      "probability": 0.9866,
+      "alignment": "exact",
+      "start_frame": 1383,
+      "end_frame": 1393
+    },
+    {
+      "index": 111,
+      "paragraph": 3,
+      "word": "не",
+      "normalized": "не",
+      "start": 46.44,
+      "end": 46.64,
+      "probability": 0.9894,
+      "alignment": "exact",
+      "start_frame": 1393,
+      "end_frame": 1399
+    },
+    {
+      "index": 112,
+      "paragraph": 3,
+      "word": "существовало",
+      "normalized": "существовало",
+      "start": 46.64,
+      "end": 47.28,
+      "probability": 0.9469,
+      "alignment": "exact",
+      "start_frame": 1399,
+      "end_frame": 1418
+    },
+    {
+      "index": 113,
+      "paragraph": 3,
+      "word": "Их",
+      "normalized": "их",
+      "start": 47.68,
+      "end": 47.92,
+      "probability": 0.8996,
+      "alignment": "exact",
+      "start_frame": 1430,
+      "end_frame": 1438
+    },
+    {
+      "index": 114,
+      "paragraph": 3,
+      "word": "выдумал",
+      "normalized": "выдумал",
+      "start": 47.92,
+      "end": 48.26,
+      "probability": 0.9579,
+      "alignment": "exact",
+      "start_frame": 1438,
+      "end_frame": 1448
+    },
+    {
+      "index": 115,
+      "paragraph": 3,
+      "word": "ЧатДжиПиТи",
+      "normalized": "чатджипити",
+      "start": 48.26,
+      "end": 48.76,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1448,
+      "end_frame": 1463
+    },
+    {
+      "index": 116,
+      "paragraph": 3,
+      "word": "а",
+      "normalized": "а",
+      "start": 49.16,
+      "end": 49.26,
+      "probability": 0.9737,
+      "alignment": "exact",
+      "start_frame": 1475,
+      "end_frame": 1478
+    },
+    {
+      "index": 117,
+      "paragraph": 3,
+      "word": "адвокат",
+      "normalized": "адвокат",
+      "start": 49.26,
+      "end": 49.58,
+      "probability": 0.9973,
+      "alignment": "exact",
+      "start_frame": 1478,
+      "end_frame": 1487
+    },
+    {
+      "index": 118,
+      "paragraph": 3,
+      "word": "не",
+      "normalized": "не",
+      "start": 49.58,
+      "end": 49.72,
+      "probability": 0.9828,
+      "alignment": "exact",
+      "start_frame": 1487,
+      "end_frame": 1492
+    },
+    {
+      "index": 119,
+      "paragraph": 3,
+      "word": "проверил",
+      "normalized": "проверил",
+      "start": 49.72,
+      "end": 50.14,
+      "probability": 0.9913,
+      "alignment": "exact",
+      "start_frame": 1492,
+      "end_frame": 1504
+    },
+    {
+      "index": 120,
+      "paragraph": 3,
+      "word": "Суд",
+      "normalized": "суд",
+      "start": 50.92,
+      "end": 51.29,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1528,
+      "end_frame": 1539
+    },
+    {
+      "index": 121,
+      "paragraph": 3,
+      "word": "оштрафовал",
+      "normalized": "оштрафовал",
+      "start": 51.29,
+      "end": 51.66,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1539,
+      "end_frame": 1550
+    },
+    {
+      "index": 122,
+      "paragraph": 3,
+      "word": "юристов",
+      "normalized": "юристов",
+      "start": 51.66,
+      "end": 52.14,
+      "probability": 0.9835,
+      "alignment": "exact",
+      "start_frame": 1550,
+      "end_frame": 1564
+    },
+    {
+      "index": 123,
+      "paragraph": 3,
+      "word": "на",
+      "normalized": "на",
+      "start": 52.14,
+      "end": 52.24,
+      "probability": 0.9951,
+      "alignment": "exact",
+      "start_frame": 1564,
+      "end_frame": 1567
+    },
+    {
+      "index": 124,
+      "paragraph": 3,
+      "word": "пять",
+      "normalized": "пять",
+      "start": 52.24,
+      "end": 52.5,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1567,
+      "end_frame": 1575
+    },
+    {
+      "index": 125,
+      "paragraph": 3,
+      "word": "тысяч",
+      "normalized": "тысяч",
+      "start": 52.5,
+      "end": 52.7,
+      "probability": 0.5092,
+      "alignment": "exact",
+      "start_frame": 1575,
+      "end_frame": 1581
+    },
+    {
+      "index": 126,
+      "paragraph": 3,
+      "word": "долларов",
+      "normalized": "долларов",
+      "start": 52.7,
+      "end": 53.02,
+      "probability": 0.9805,
+      "alignment": "exact",
+      "start_frame": 1581,
+      "end_frame": 1591
+    },
+    {
+      "index": 127,
+      "paragraph": 3,
+      "word": "Человек",
+      "normalized": "человек",
+      "start": 53.52,
+      "end": 53.92,
+      "probability": 0.9861,
+      "alignment": "exact",
+      "start_frame": 1606,
+      "end_frame": 1618
+    },
+    {
+      "index": 128,
+      "paragraph": 3,
+      "word": "с",
+      "normalized": "с",
+      "start": 53.92,
+      "end": 54.06,
+      "probability": 0.9577,
+      "alignment": "exact",
+      "start_frame": 1618,
+      "end_frame": 1622
+    },
+    {
+      "index": 129,
+      "paragraph": 3,
+      "word": "дипломом",
+      "normalized": "дипломом",
+      "start": 54.06,
+      "end": 54.5,
+      "probability": 0.9689,
+      "alignment": "exact",
+      "start_frame": 1622,
+      "end_frame": 1635
+    },
+    {
+      "index": 130,
+      "paragraph": 3,
+      "word": "проиграл",
+      "normalized": "проиграл",
+      "start": 54.5,
+      "end": 54.92,
+      "probability": 0.9963,
+      "alignment": "exact",
+      "start_frame": 1635,
+      "end_frame": 1648
+    },
+    {
+      "index": 131,
+      "paragraph": 3,
+      "word": "не",
+      "normalized": "не",
+      "start": 54.92,
+      "end": 55.38,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1648,
+      "end_frame": 1661
+    },
+    {
+      "index": 132,
+      "paragraph": 3,
+      "word": "оппоненту",
+      "normalized": "оппоненту",
+      "start": 55.38,
+      "end": 55.84,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1661,
+      "end_frame": 1675
+    },
+    {
+      "index": 133,
+      "paragraph": 3,
+      "word": "а",
+      "normalized": "а",
+      "start": 55.9,
+      "end": 56.02,
+      "probability": 0.9965,
+      "alignment": "exact",
+      "start_frame": 1677,
+      "end_frame": 1681
+    },
+    {
+      "index": 134,
+      "paragraph": 3,
+      "word": "собственной",
+      "normalized": "собственной",
+      "start": 56.02,
+      "end": 56.82,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1681,
+      "end_frame": 1705
+    },
+    {
+      "index": 135,
+      "paragraph": 3,
+      "word": "слепой",
+      "normalized": "слепой",
+      "start": 56.82,
+      "end": 57.26,
+      "probability": 0.961,
+      "alignment": "exact",
+      "start_frame": 1705,
+      "end_frame": 1718
+    },
+    {
+      "index": 136,
+      "paragraph": 3,
+      "word": "вере",
+      "normalized": "вере",
+      "start": 57.26,
+      "end": 57.44,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1718,
+      "end_frame": 1723
+    },
+    {
+      "index": 137,
+      "paragraph": 3,
+      "word": "в",
+      "normalized": "в",
+      "start": 57.44,
+      "end": 57.62,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1723,
+      "end_frame": 1729
+    },
+    {
+      "index": 138,
+      "paragraph": 3,
+      "word": "чат",
+      "normalized": "чат",
+      "start": 57.62,
+      "end": 57.8,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1729,
+      "end_frame": 1734
+    },
+    {
+      "index": 139,
+      "paragraph": 4,
+      "word": "Это",
+      "normalized": "это",
+      "start": 58.62,
+      "end": 58.94,
+      "probability": 0.4549,
+      "alignment": "exact",
+      "start_frame": 1759,
+      "end_frame": 1768
+    },
+    {
+      "index": 140,
+      "paragraph": 4,
+      "word": "называется",
+      "normalized": "называется",
+      "start": 58.94,
+      "end": 59.42,
+      "probability": 0.9853,
+      "alignment": "exact",
+      "start_frame": 1768,
+      "end_frame": 1783
+    },
+    {
+      "index": 141,
+      "paragraph": 4,
+      "word": "галлюцинации",
+      "normalized": "галлюцинации",
+      "start": 59.42,
+      "end": 60.38,
+      "probability": 0.6862,
+      "alignment": "exact",
+      "start_frame": 1783,
+      "end_frame": 1811
+    },
+    {
+      "index": 142,
+      "paragraph": 4,
+      "word": "Нейросеть",
+      "normalized": "нейросеть",
+      "start": 60.88,
+      "end": 61.36,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 1826,
+      "end_frame": 1841
+    },
+    {
+      "index": 143,
+      "paragraph": 4,
+      "word": "не",
+      "normalized": "не",
+      "start": 61.36,
+      "end": 61.58,
+      "probability": 0.9879,
+      "alignment": "exact",
+      "start_frame": 1841,
+      "end_frame": 1847
+    },
+    {
+      "index": 144,
+      "paragraph": 4,
+      "word": "знает",
+      "normalized": "знает",
+      "start": 61.58,
+      "end": 61.9,
+      "probability": 0.9536,
+      "alignment": "exact",
+      "start_frame": 1847,
+      "end_frame": 1857
+    },
+    {
+      "index": 145,
+      "paragraph": 4,
+      "word": "что",
+      "normalized": "что",
+      "start": 62.02,
+      "end": 62.1,
+      "probability": 0.9965,
+      "alignment": "exact",
+      "start_frame": 1861,
+      "end_frame": 1863
+    },
+    {
+      "index": 146,
+      "paragraph": 4,
+      "word": "правда",
+      "normalized": "правда",
+      "start": 62.1,
+      "end": 62.36,
+      "probability": 0.8655,
+      "alignment": "exact",
+      "start_frame": 1863,
+      "end_frame": 1871
+    },
+    {
+      "index": 147,
+      "paragraph": 4,
+      "word": "а",
+      "normalized": "а",
+      "start": 62.36,
+      "end": 62.6,
+      "probability": 0.9445,
+      "alignment": "exact",
+      "start_frame": 1871,
+      "end_frame": 1878
+    },
+    {
+      "index": 148,
+      "paragraph": 4,
+      "word": "что",
+      "normalized": "что",
+      "start": 62.6,
+      "end": 62.72,
+      "probability": 0.9831,
+      "alignment": "exact",
+      "start_frame": 1878,
+      "end_frame": 1882
+    },
+    {
+      "index": 149,
+      "paragraph": 4,
+      "word": "нет",
+      "normalized": "нет",
+      "start": 62.72,
+      "end": 62.92,
+      "probability": 0.9897,
+      "alignment": "exact",
+      "start_frame": 1882,
+      "end_frame": 1888
+    },
+    {
+      "index": 150,
+      "paragraph": 4,
+      "word": "Она",
+      "normalized": "она",
+      "start": 63.46,
+      "end": 63.6,
+      "probability": 0.9638,
+      "alignment": "exact",
+      "start_frame": 1904,
+      "end_frame": 1908
+    },
+    {
+      "index": 151,
+      "paragraph": 4,
+      "word": "подбирает",
+      "normalized": "подбирает",
+      "start": 63.6,
+      "end": 64.04,
+      "probability": 0.9674,
+      "alignment": "exact",
+      "start_frame": 1908,
+      "end_frame": 1921
+    },
+    {
+      "index": 152,
+      "paragraph": 4,
+      "word": "наиболее",
+      "normalized": "наиболее",
+      "start": 64.04,
+      "end": 64.56,
+      "probability": 0.981,
+      "alignment": "exact",
+      "start_frame": 1921,
+      "end_frame": 1937
+    },
+    {
+      "index": 153,
+      "paragraph": 4,
+      "word": "правдоподобное",
+      "normalized": "правдоподобное",
+      "start": 64.56,
+      "end": 65.54,
+      "probability": 0.9376,
+      "alignment": "exact",
+      "start_frame": 1937,
+      "end_frame": 1966
+    },
+    {
+      "index": 154,
+      "paragraph": 4,
+      "word": "продолжение",
+      "normalized": "продолжение",
+      "start": 65.54,
+      "end": 66.12,
+      "probability": 0.9835,
+      "alignment": "exact",
+      "start_frame": 1966,
+      "end_frame": 1984
+    },
+    {
+      "index": 155,
+      "paragraph": 4,
+      "word": "текста",
+      "normalized": "текста",
+      "start": 66.12,
+      "end": 66.58,
+      "probability": 0.7347,
+      "alignment": "exact",
+      "start_frame": 1984,
+      "end_frame": 1997
+    },
+    {
+      "index": 156,
+      "paragraph": 4,
+      "word": "Правдоподобное",
+      "normalized": "правдоподобное",
+      "start": 67.18,
+      "end": 67.82,
+      "probability": 0.9711,
+      "alignment": "exact",
+      "start_frame": 2015,
+      "end_frame": 2035
+    },
+    {
+      "index": 157,
+      "paragraph": 4,
+      "word": "а",
+      "normalized": "а",
+      "start": 68.04,
+      "end": 68.41,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2041,
+      "end_frame": 2052
+    },
+    {
+      "index": 158,
+      "paragraph": 4,
+      "word": "не",
+      "normalized": "не",
+      "start": 68.41,
+      "end": 68.78,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2052,
+      "end_frame": 2063
+    },
+    {
+      "index": 159,
+      "paragraph": 4,
+      "word": "верное",
+      "normalized": "верное",
+      "start": 68.78,
+      "end": 69.15,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2063,
+      "end_frame": 2074
+    },
+    {
+      "index": 160,
+      "paragraph": 4,
+      "word": "Чувствуете",
+      "normalized": "чувствуете",
+      "start": 69.15,
+      "end": 69.52,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2074,
+      "end_frame": 2086
+    },
+    {
+      "index": 161,
+      "paragraph": 4,
+      "word": "разницу",
+      "normalized": "разницу",
+      "start": 69.52,
+      "end": 69.92,
+      "probability": 0.9906,
+      "alignment": "exact",
+      "start_frame": 2086,
+      "end_frame": 2098
+    },
+    {
+      "index": 162,
+      "paragraph": 4,
+      "word": "Именно",
+      "normalized": "именно",
+      "start": 70.44,
+      "end": 70.82,
+      "probability": 0.989,
+      "alignment": "exact",
+      "start_frame": 2113,
+      "end_frame": 2125
+    },
+    {
+      "index": 163,
+      "paragraph": 4,
+      "word": "поэтому",
+      "normalized": "поэтому",
+      "start": 70.82,
+      "end": 71.38,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2125,
+      "end_frame": 2141
+    },
+    {
+      "index": 164,
+      "paragraph": 4,
+      "word": "Гугл",
+      "normalized": "гугл",
+      "start": 71.38,
+      "end": 71.94,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2141,
+      "end_frame": 2158
+    },
+    {
+      "index": 165,
+      "paragraph": 4,
+      "word": "в",
+      "normalized": "в",
+      "start": 71.94,
+      "end": 72.12,
+      "probability": 0.8129,
+      "alignment": "exact",
+      "start_frame": 2158,
+      "end_frame": 2164
+    },
+    {
+      "index": 166,
+      "paragraph": 4,
+      "word": "две",
+      "normalized": "две",
+      "start": 72.12,
+      "end": 72.265,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2164,
+      "end_frame": 2168
+    },
+    {
+      "index": 167,
+      "paragraph": 4,
+      "word": "тысячи",
+      "normalized": "тысячи",
+      "start": 72.265,
+      "end": 72.41,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2168,
+      "end_frame": 2172
+    },
+    {
+      "index": 168,
+      "paragraph": 4,
+      "word": "двадцать",
+      "normalized": "двадцать",
+      "start": 72.41,
+      "end": 72.555,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2172,
+      "end_frame": 2177
+    },
+    {
+      "index": 169,
+      "paragraph": 4,
+      "word": "четвёртом",
+      "normalized": "четвертом",
+      "start": 72.555,
+      "end": 72.7,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2177,
+      "end_frame": 2181
+    },
+    {
+      "index": 170,
+      "paragraph": 4,
+      "word": "году",
+      "normalized": "году",
+      "start": 72.7,
+      "end": 73.62,
+      "probability": 0.984,
+      "alignment": "exact",
+      "start_frame": 2181,
+      "end_frame": 2209
+    },
+    {
+      "index": 171,
+      "paragraph": 4,
+      "word": "показывал",
+      "normalized": "показывал",
+      "start": 73.62,
+      "end": 74.38,
+      "probability": 0.9861,
+      "alignment": "exact",
+      "start_frame": 2209,
+      "end_frame": 2231
+    },
+    {
+      "index": 172,
+      "paragraph": 4,
+      "word": "людям",
+      "normalized": "людям",
+      "start": 74.38,
+      "end": 74.6,
+      "probability": 0.9951,
+      "alignment": "exact",
+      "start_frame": 2231,
+      "end_frame": 2238
+    },
+    {
+      "index": 173,
+      "paragraph": 4,
+      "word": "в",
+      "normalized": "в",
+      "start": 74.6,
+      "end": 74.76,
+      "probability": 0.8655,
+      "alignment": "exact",
+      "start_frame": 2238,
+      "end_frame": 2243
+    },
+    {
+      "index": 174,
+      "paragraph": 4,
+      "word": "поиске",
+      "normalized": "поиске",
+      "start": 74.76,
+      "end": 75.1,
+      "probability": 0.9508,
+      "alignment": "exact",
+      "start_frame": 2243,
+      "end_frame": 2253
+    },
+    {
+      "index": 175,
+      "paragraph": 4,
+      "word": "совет",
+      "normalized": "совет",
+      "start": 75.1,
+      "end": 75.38,
+      "probability": 0.9289,
+      "alignment": "exact",
+      "start_frame": 2253,
+      "end_frame": 2261
+    },
+    {
+      "index": 176,
+      "paragraph": 4,
+      "word": "добавить",
+      "normalized": "добавить",
+      "start": 75.38,
+      "end": 76.16,
+      "probability": 0.6143,
+      "alignment": "exact",
+      "start_frame": 2261,
+      "end_frame": 2285
+    },
+    {
+      "index": 177,
+      "paragraph": 4,
+      "word": "клей",
+      "normalized": "клей",
+      "start": 76.16,
+      "end": 76.52,
+      "probability": 0.8316,
+      "alignment": "exact",
+      "start_frame": 2285,
+      "end_frame": 2296
+    },
+    {
+      "index": 178,
+      "paragraph": 4,
+      "word": "в",
+      "normalized": "в",
+      "start": 76.52,
+      "end": 76.86,
+      "probability": 0.9254,
+      "alignment": "exact",
+      "start_frame": 2296,
+      "end_frame": 2306
+    },
+    {
+      "index": 179,
+      "paragraph": 4,
+      "word": "соус",
+      "normalized": "соус",
+      "start": 76.86,
+      "end": 77.14,
+      "probability": 0.8565,
+      "alignment": "exact",
+      "start_frame": 2306,
+      "end_frame": 2314
+    },
+    {
+      "index": 180,
+      "paragraph": 4,
+      "word": "для",
+      "normalized": "для",
+      "start": 77.14,
+      "end": 77.32,
+      "probability": 0.9863,
+      "alignment": "exact",
+      "start_frame": 2314,
+      "end_frame": 2320
+    },
+    {
+      "index": 181,
+      "paragraph": 4,
+      "word": "пиццы",
+      "normalized": "пиццы",
+      "start": 77.32,
+      "end": 77.66,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2320,
+      "end_frame": 2330
+    },
+    {
+      "index": 182,
+      "paragraph": 4,
+      "word": "Да",
+      "normalized": "да",
+      "start": 78.14,
+      "end": 78.42,
+      "probability": 0.9583,
+      "alignment": "exact",
+      "start_frame": 2344,
+      "end_frame": 2353
+    },
+    {
+      "index": 183,
+      "paragraph": 4,
+      "word": "это",
+      "normalized": "это",
+      "start": 78.6,
+      "end": 78.92,
+      "probability": 0.9899,
+      "alignment": "exact",
+      "start_frame": 2358,
+      "end_frame": 2368
+    },
+    {
+      "index": 184,
+      "paragraph": 4,
+      "word": "было",
+      "normalized": "было",
+      "start": 78.92,
+      "end": 79.16,
+      "probability": 0.995,
+      "alignment": "exact",
+      "start_frame": 2368,
+      "end_frame": 2375
+    },
+    {
+      "index": 185,
+      "paragraph": 4,
+      "word": "на",
+      "normalized": "на",
+      "start": 79.16,
+      "end": 79.32,
+      "probability": 0.9752,
+      "alignment": "exact",
+      "start_frame": 2375,
+      "end_frame": 2380
+    },
+    {
+      "index": 186,
+      "paragraph": 4,
+      "word": "самом",
+      "normalized": "самом",
+      "start": 79.32,
+      "end": 79.62,
+      "probability": 0.9941,
+      "alignment": "exact",
+      "start_frame": 2380,
+      "end_frame": 2389
+    },
+    {
+      "index": 187,
+      "paragraph": 4,
+      "word": "деле",
+      "normalized": "деле",
+      "start": 79.62,
+      "end": 79.9,
+      "probability": 0.9997,
+      "alignment": "exact",
+      "start_frame": 2389,
+      "end_frame": 2397
+    },
+    {
+      "index": 188,
+      "paragraph": 4,
+      "word": "об",
+      "normalized": "об",
+      "start": 80.16,
+      "end": 80.42,
+      "probability": 0.7979,
+      "alignment": "exact",
+      "start_frame": 2405,
+      "end_frame": 2413
+    },
+    {
+      "index": 189,
+      "paragraph": 4,
+      "word": "этом",
+      "normalized": "этом",
+      "start": 80.42,
+      "end": 80.58,
+      "probability": 0.9996,
+      "alignment": "exact",
+      "start_frame": 2413,
+      "end_frame": 2417
+    },
+    {
+      "index": 190,
+      "paragraph": 4,
+      "word": "писали",
+      "normalized": "писали",
+      "start": 80.58,
+      "end": 80.98,
+      "probability": 0.9973,
+      "alignment": "exact",
+      "start_frame": 2417,
+      "end_frame": 2429
+    },
+    {
+      "index": 191,
+      "paragraph": 4,
+      "word": "крупные",
+      "normalized": "крупные",
+      "start": 80.98,
+      "end": 81.5,
+      "probability": 0.9294,
+      "alignment": "exact",
+      "start_frame": 2429,
+      "end_frame": 2445
+    },
+    {
+      "index": 192,
+      "paragraph": 4,
+      "word": "издания",
+      "normalized": "издания",
+      "start": 81.5,
+      "end": 81.92,
+      "probability": 0.9111,
+      "alignment": "exact",
+      "start_frame": 2445,
+      "end_frame": 2458
+    },
+    {
+      "index": 193,
+      "paragraph": 5,
+      "word": "Теперь",
+      "normalized": "теперь",
+      "start": 82.54,
+      "end": 82.84,
+      "probability": 0.9804,
+      "alignment": "exact",
+      "start_frame": 2476,
+      "end_frame": 2485
+    },
+    {
+      "index": 194,
+      "paragraph": 5,
+      "word": "про",
+      "normalized": "про",
+      "start": 82.84,
+      "end": 83.1,
+      "probability": 0.8823,
+      "alignment": "exact",
+      "start_frame": 2485,
+      "end_frame": 2493
+    },
+    {
+      "index": 195,
+      "paragraph": 5,
+      "word": "деньги",
+      "normalized": "деньги",
+      "start": 83.1,
+      "end": 83.34,
+      "probability": 0.998,
+      "alignment": "exact",
+      "start_frame": 2493,
+      "end_frame": 2500
+    },
+    {
+      "index": 196,
+      "paragraph": 5,
+      "word": "В",
+      "normalized": "в",
+      "start": 83.72,
+      "end": 84.06,
+      "probability": 0.2726,
+      "alignment": "exact",
+      "start_frame": 2512,
+      "end_frame": 2522
+    },
+    {
+      "index": 197,
+      "paragraph": 5,
+      "word": "две",
+      "normalized": "две",
+      "start": 84.06,
+      "end": 84.265,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2522,
+      "end_frame": 2528
+    },
+    {
+      "index": 198,
+      "paragraph": 5,
+      "word": "тысячи",
+      "normalized": "тысячи",
+      "start": 84.265,
+      "end": 84.47,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2528,
+      "end_frame": 2534
+    },
+    {
+      "index": 199,
+      "paragraph": 5,
+      "word": "двадцать",
+      "normalized": "двадцать",
+      "start": 84.47,
+      "end": 84.675,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2534,
+      "end_frame": 2540
+    },
+    {
+      "index": 200,
+      "paragraph": 5,
+      "word": "четвёртом",
+      "normalized": "четвертом",
+      "start": 84.675,
+      "end": 84.88,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2540,
+      "end_frame": 2546
+    },
+    {
+      "index": 201,
+      "paragraph": 5,
+      "word": "году",
+      "normalized": "году",
+      "start": 84.88,
+      "end": 85.66,
+      "probability": 0.7977,
+      "alignment": "exact",
+      "start_frame": 2546,
+      "end_frame": 2570
+    },
+    {
+      "index": 202,
+      "paragraph": 5,
+      "word": "канадский",
+      "normalized": "канадский",
+      "start": 85.66,
+      "end": 86.3,
+      "probability": 0.9396,
+      "alignment": "exact",
+      "start_frame": 2570,
+      "end_frame": 2589
+    },
+    {
+      "index": 203,
+      "paragraph": 5,
+      "word": "суд",
+      "normalized": "суд",
+      "start": 86.3,
+      "end": 86.5,
+      "probability": 0.8331,
+      "alignment": "exact",
+      "start_frame": 2589,
+      "end_frame": 2595
+    },
+    {
+      "index": 204,
+      "paragraph": 5,
+      "word": "обязал",
+      "normalized": "обязал",
+      "start": 86.5,
+      "end": 87.02,
+      "probability": 0.7303,
+      "alignment": "exact",
+      "start_frame": 2595,
+      "end_frame": 2611
+    },
+    {
+      "index": 205,
+      "paragraph": 5,
+      "word": "Эйр",
+      "normalized": "эйр",
+      "start": 87.02,
+      "end": 87.31,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2611,
+      "end_frame": 2619
+    },
+    {
+      "index": 206,
+      "paragraph": 5,
+      "word": "Канада",
+      "normalized": "канада",
+      "start": 87.31,
+      "end": 87.6,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2619,
+      "end_frame": 2628
+    },
+    {
+      "index": 207,
+      "paragraph": 5,
+      "word": "выплатить",
+      "normalized": "выплатить",
+      "start": 87.6,
+      "end": 88.14,
+      "probability": 0.9747,
+      "alignment": "exact",
+      "start_frame": 2628,
+      "end_frame": 2644
+    },
+    {
+      "index": 208,
+      "paragraph": 5,
+      "word": "компенсацию",
+      "normalized": "компенсацию",
+      "start": 88.14,
+      "end": 88.86,
+      "probability": 0.9741,
+      "alignment": "exact",
+      "start_frame": 2644,
+      "end_frame": 2666
+    },
+    {
+      "index": 209,
+      "paragraph": 5,
+      "word": "пассажиру",
+      "normalized": "пассажиру",
+      "start": 88.86,
+      "end": 89.34,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2666,
+      "end_frame": 2680
+    },
+    {
+      "index": 210,
+      "paragraph": 5,
+      "word": "потому",
+      "normalized": "потому",
+      "start": 89.66,
+      "end": 89.8,
+      "probability": 0.9966,
+      "alignment": "exact",
+      "start_frame": 2690,
+      "end_frame": 2694
+    },
+    {
+      "index": 211,
+      "paragraph": 5,
+      "word": "что",
+      "normalized": "что",
+      "start": 89.8,
+      "end": 90.04,
+      "probability": 0.9786,
+      "alignment": "exact",
+      "start_frame": 2694,
+      "end_frame": 2701
+    },
+    {
+      "index": 212,
+      "paragraph": 5,
+      "word": "чат-бот",
+      "normalized": "чатбот",
+      "start": 90.04,
+      "end": 90.68,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2701,
+      "end_frame": 2720
+    },
+    {
+      "index": 213,
+      "paragraph": 5,
+      "word": "авиакомпании",
+      "normalized": "авиакомпании",
+      "start": 90.68,
+      "end": 91.32,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2720,
+      "end_frame": 2740
+    },
+    {
+      "index": 214,
+      "paragraph": 5,
+      "word": "сообщил",
+      "normalized": "сообщил",
+      "start": 91.32,
+      "end": 91.88,
+      "probability": 0.9661,
+      "alignment": "exact",
+      "start_frame": 2740,
+      "end_frame": 2756
+    },
+    {
+      "index": 215,
+      "paragraph": 5,
+      "word": "ему",
+      "normalized": "ему",
+      "start": 91.88,
+      "end": 92.02,
+      "probability": 0.8273,
+      "alignment": "exact",
+      "start_frame": 2756,
+      "end_frame": 2761
+    },
+    {
+      "index": 216,
+      "paragraph": 5,
+      "word": "неверные",
+      "normalized": "неверные",
+      "start": 92.02,
+      "end": 92.58,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2761,
+      "end_frame": 2777
+    },
+    {
+      "index": 217,
+      "paragraph": 5,
+      "word": "условия",
+      "normalized": "условия",
+      "start": 92.58,
+      "end": 93.14,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2777,
+      "end_frame": 2794
+    },
+    {
+      "index": 218,
+      "paragraph": 5,
+      "word": "возврата",
+      "normalized": "возврата",
+      "start": 93.14,
+      "end": 93.7,
+      "probability": 0.8754,
+      "alignment": "exact",
+      "start_frame": 2794,
+      "end_frame": 2811
+    },
+    {
+      "index": 219,
+      "paragraph": 5,
+      "word": "Компания",
+      "normalized": "компания",
+      "start": 94.18,
+      "end": 94.62,
+      "probability": 0.9416,
+      "alignment": "exact",
+      "start_frame": 2825,
+      "end_frame": 2839
+    },
+    {
+      "index": 220,
+      "paragraph": 5,
+      "word": "пыталась",
+      "normalized": "пыталась",
+      "start": 94.62,
+      "end": 95.04,
+      "probability": 0.9621,
+      "alignment": "exact",
+      "start_frame": 2839,
+      "end_frame": 2851
+    },
+    {
+      "index": 221,
+      "paragraph": 5,
+      "word": "доказать",
+      "normalized": "доказать",
+      "start": 95.04,
+      "end": 95.48,
+      "probability": 0.9913,
+      "alignment": "exact",
+      "start_frame": 2851,
+      "end_frame": 2864
+    },
+    {
+      "index": 222,
+      "paragraph": 5,
+      "word": "что",
+      "normalized": "что",
+      "start": 95.6,
+      "end": 95.7,
+      "probability": 0.9824,
+      "alignment": "exact",
+      "start_frame": 2868,
+      "end_frame": 2871
+    },
+    {
+      "index": 223,
+      "paragraph": 5,
+      "word": "бот",
+      "normalized": "бот",
+      "start": 95.7,
+      "end": 95.98,
+      "probability": 0.9762,
+      "alignment": "exact",
+      "start_frame": 2871,
+      "end_frame": 2879
+    },
+    {
+      "index": 224,
+      "paragraph": 5,
+      "word": "отвечает",
+      "normalized": "отвечает",
+      "start": 95.98,
+      "end": 96.66,
+      "probability": 0.9896,
+      "alignment": "exact",
+      "start_frame": 2879,
+      "end_frame": 2900
+    },
+    {
+      "index": 225,
+      "paragraph": 5,
+      "word": "сам",
+      "normalized": "сам",
+      "start": 96.66,
+      "end": 96.88,
+      "probability": 0.9628,
+      "alignment": "exact",
+      "start_frame": 2900,
+      "end_frame": 2906
+    },
+    {
+      "index": 226,
+      "paragraph": 5,
+      "word": "за",
+      "normalized": "за",
+      "start": 96.88,
+      "end": 97.08,
+      "probability": 0.9993,
+      "alignment": "exact",
+      "start_frame": 2906,
+      "end_frame": 2912
+    },
+    {
+      "index": 227,
+      "paragraph": 5,
+      "word": "себя",
+      "normalized": "себя",
+      "start": 97.08,
+      "end": 97.34,
+      "probability": 0.9988,
+      "alignment": "exact",
+      "start_frame": 2912,
+      "end_frame": 2920
+    },
+    {
+      "index": 228,
+      "paragraph": 5,
+      "word": "Суд",
+      "normalized": "суд",
+      "start": 97.84,
+      "end": 98.02,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 2935,
+      "end_frame": 2941
+    },
+    {
+      "index": 229,
+      "paragraph": 5,
+      "word": "не",
+      "normalized": "не",
+      "start": 98.02,
+      "end": 98.2,
+      "probability": 0.4421,
+      "alignment": "exact",
+      "start_frame": 2941,
+      "end_frame": 2946
+    },
+    {
+      "index": 230,
+      "paragraph": 5,
+      "word": "купился",
+      "normalized": "купился",
+      "start": 98.2,
+      "end": 98.58,
+      "probability": 0.9902,
+      "alignment": "exact",
+      "start_frame": 2946,
+      "end_frame": 2957
+    },
+    {
+      "index": 231,
+      "paragraph": 5,
+      "word": "Понимаете",
+      "normalized": "понимаете",
+      "start": 99.1,
+      "end": 99.54,
+      "probability": 0.9671,
+      "alignment": "exact",
+      "start_frame": 2973,
+      "end_frame": 2986
+    },
+    {
+      "index": 232,
+      "paragraph": 5,
+      "word": "Отвечаете",
+      "normalized": "отвечаете",
+      "start": 99.84,
+      "end": 100.32,
+      "probability": 0.8929,
+      "alignment": "exact",
+      "start_frame": 2995,
+      "end_frame": 3010
+    },
+    {
+      "index": 233,
+      "paragraph": 5,
+      "word": "вы",
+      "normalized": "вы",
+      "start": 100.58,
+      "end": 100.68,
+      "probability": 0.4059,
+      "alignment": "exact",
+      "start_frame": 3017,
+      "end_frame": 3020
+    },
+    {
+      "index": 234,
+      "paragraph": 5,
+      "word": "За",
+      "normalized": "за",
+      "start": 101.08,
+      "end": 101.16,
+      "probability": 0.941,
+      "alignment": "exact",
+      "start_frame": 3032,
+      "end_frame": 3035
+    },
+    {
+      "index": 235,
+      "paragraph": 5,
+      "word": "слова",
+      "normalized": "слова",
+      "start": 101.16,
+      "end": 101.38,
+      "probability": 0.7827,
+      "alignment": "exact",
+      "start_frame": 3035,
+      "end_frame": 3041
+    },
+    {
+      "index": 236,
+      "paragraph": 5,
+      "word": "машины",
+      "normalized": "машины",
+      "start": 101.38,
+      "end": 101.9,
+      "probability": 0.9608,
+      "alignment": "exact",
+      "start_frame": 3041,
+      "end_frame": 3057
+    },
+    {
+      "index": 237,
+      "paragraph": 5,
+      "word": "которая",
+      "normalized": "которая",
+      "start": 101.92,
+      "end": 102.18,
+      "probability": 0.5583,
+      "alignment": "exact",
+      "start_frame": 3058,
+      "end_frame": 3065
+    },
+    {
+      "index": 238,
+      "paragraph": 5,
+      "word": "не",
+      "normalized": "не",
+      "start": 102.18,
+      "end": 102.48,
+      "probability": 0.9923,
+      "alignment": "exact",
+      "start_frame": 3065,
+      "end_frame": 3074
+    },
+    {
+      "index": 239,
+      "paragraph": 5,
+      "word": "отвечает",
+      "normalized": "отвечает",
+      "start": 102.48,
+      "end": 103.02,
+      "probability": 0.9986,
+      "alignment": "exact",
+      "start_frame": 3074,
+      "end_frame": 3091
+    },
+    {
+      "index": 240,
+      "paragraph": 5,
+      "word": "ни",
+      "normalized": "ни",
+      "start": 103.36,
+      "end": 103.46,
+      "probability": 0.7633,
+      "alignment": "exact",
+      "start_frame": 3101,
+      "end_frame": 3104
+    },
+    {
+      "index": 241,
+      "paragraph": 5,
+      "word": "за",
+      "normalized": "за",
+      "start": 103.46,
+      "end": 103.64,
+      "probability": 0.9965,
+      "alignment": "exact",
+      "start_frame": 3104,
+      "end_frame": 3109
+    },
+    {
+      "index": 242,
+      "paragraph": 5,
+      "word": "что",
+      "normalized": "что",
+      "start": 103.64,
+      "end": 103.84,
+      "probability": 0.998,
+      "alignment": "exact",
+      "start_frame": 3109,
+      "end_frame": 3115
+    },
+    {
+      "index": 243,
+      "paragraph": 6,
+      "word": "А",
+      "normalized": "а",
+      "start": 104.54,
+      "end": 104.74,
+      "probability": 0.9689,
+      "alignment": "exact",
+      "start_frame": 3136,
+      "end_frame": 3142
+    },
+    {
+      "index": 244,
+      "paragraph": 6,
+      "word": "теперь",
+      "normalized": "теперь",
+      "start": 104.74,
+      "end": 104.92,
+      "probability": 0.9928,
+      "alignment": "exact",
+      "start_frame": 3142,
+      "end_frame": 3148
+    },
+    {
+      "index": 245,
+      "paragraph": 6,
+      "word": "вопрос",
+      "normalized": "вопрос",
+      "start": 104.92,
+      "end": 105.34,
+      "probability": 0.9727,
+      "alignment": "exact",
+      "start_frame": 3148,
+      "end_frame": 3160
+    },
+    {
+      "index": 246,
+      "paragraph": 6,
+      "word": "который",
+      "normalized": "который",
+      "start": 105.48,
+      "end": 105.66,
+      "probability": 0.9927,
+      "alignment": "exact",
+      "start_frame": 3164,
+      "end_frame": 3170
+    },
+    {
+      "index": 247,
+      "paragraph": 6,
+      "word": "заставит",
+      "normalized": "заставит",
+      "start": 105.66,
+      "end": 106.16,
+      "probability": 0.9784,
+      "alignment": "exact",
+      "start_frame": 3170,
+      "end_frame": 3185
+    },
+    {
+      "index": 248,
+      "paragraph": 6,
+      "word": "усомниться",
+      "normalized": "усомниться",
+      "start": 106.16,
+      "end": 106.68,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3185,
+      "end_frame": 3200
+    },
+    {
+      "index": 249,
+      "paragraph": 6,
+      "word": "даже",
+      "normalized": "даже",
+      "start": 106.68,
+      "end": 107.12,
+      "probability": 0.9764,
+      "alignment": "exact",
+      "start_frame": 3200,
+      "end_frame": 3214
+    },
+    {
+      "index": 250,
+      "paragraph": 6,
+      "word": "фанатов",
+      "normalized": "фанатов",
+      "start": 107.12,
+      "end": 107.58,
+      "probability": 0.94,
+      "alignment": "exact",
+      "start_frame": 3214,
+      "end_frame": 3227
+    },
+    {
+      "index": 251,
+      "paragraph": 6,
+      "word": "Все",
+      "normalized": "все",
+      "start": 107.98,
+      "end": 108.26,
+      "probability": 0.9332,
+      "alignment": "exact",
+      "start_frame": 3239,
+      "end_frame": 3248
+    },
+    {
+      "index": 252,
+      "paragraph": 6,
+      "word": "твердят",
+      "normalized": "твердят",
+      "start": 108.26,
+      "end": 108.68,
+      "probability": 0.8127,
+      "alignment": "exact",
+      "start_frame": 3248,
+      "end_frame": 3260
+    },
+    {
+      "index": 253,
+      "paragraph": 6,
+      "word": "что",
+      "normalized": "что",
+      "start": 108.76,
+      "end": 108.92,
+      "probability": 0.9988,
+      "alignment": "exact",
+      "start_frame": 3263,
+      "end_frame": 3268
+    },
+    {
+      "index": 254,
+      "paragraph": 6,
+      "word": "ИИ",
+      "normalized": "ии",
+      "start": 108.92,
+      "end": 109.24,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3268,
+      "end_frame": 3277
+    },
+    {
+      "index": 255,
+      "paragraph": 6,
+      "word": "делает",
+      "normalized": "делает",
+      "start": 109.24,
+      "end": 109.52,
+      "probability": 0.4593,
+      "alignment": "exact",
+      "start_frame": 3277,
+      "end_frame": 3286
+    },
+    {
+      "index": 256,
+      "paragraph": 6,
+      "word": "нас",
+      "normalized": "нас",
+      "start": 109.52,
+      "end": 109.76,
+      "probability": 0.9734,
+      "alignment": "exact",
+      "start_frame": 3286,
+      "end_frame": 3293
+    },
+    {
+      "index": 257,
+      "paragraph": 6,
+      "word": "продуктивнее",
+      "normalized": "продуктивнее",
+      "start": 109.76,
+      "end": 110.46,
+      "probability": 0.9622,
+      "alignment": "exact",
+      "start_frame": 3293,
+      "end_frame": 3314
+    },
+    {
+      "index": 258,
+      "paragraph": 6,
+      "word": "Но",
+      "normalized": "но",
+      "start": 110.46,
+      "end": 111.06,
+      "probability": 0.5182,
+      "alignment": "exact",
+      "start_frame": 3314,
+      "end_frame": 3332
+    },
+    {
+      "index": 259,
+      "paragraph": 6,
+      "word": "в",
+      "normalized": "в",
+      "start": 111.06,
+      "end": 111.16,
+      "probability": 0.8818,
+      "alignment": "exact",
+      "start_frame": 3332,
+      "end_frame": 3335
+    },
+    {
+      "index": 260,
+      "paragraph": 6,
+      "word": "две",
+      "normalized": "две",
+      "start": 111.16,
+      "end": 111.33,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3335,
+      "end_frame": 3340
+    },
+    {
+      "index": 261,
+      "paragraph": 6,
+      "word": "тысячи",
+      "normalized": "тысячи",
+      "start": 111.33,
+      "end": 111.5,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3340,
+      "end_frame": 3345
+    },
+    {
+      "index": 262,
+      "paragraph": 6,
+      "word": "двадцать",
+      "normalized": "двадцать",
+      "start": 111.5,
+      "end": 111.67,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3345,
+      "end_frame": 3350
+    },
+    {
+      "index": 263,
+      "paragraph": 6,
+      "word": "пятом",
+      "normalized": "пятом",
+      "start": 111.67,
+      "end": 111.84,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3350,
+      "end_frame": 3355
+    },
+    {
+      "index": 264,
+      "paragraph": 6,
+      "word": "году",
+      "normalized": "году",
+      "start": 111.84,
+      "end": 112.48,
+      "probability": 0.868,
+      "alignment": "exact",
+      "start_frame": 3355,
+      "end_frame": 3374
+    },
+    {
+      "index": 265,
+      "paragraph": 6,
+      "word": "исследователи",
+      "normalized": "исследователи",
+      "start": 112.48,
+      "end": 113.34,
+      "probability": 0.96,
+      "alignment": "exact",
+      "start_frame": 3374,
+      "end_frame": 3400
+    },
+    {
+      "index": 266,
+      "paragraph": 6,
+      "word": "из",
+      "normalized": "из",
+      "start": 113.34,
+      "end": 113.56,
+      "probability": 0.9955,
+      "alignment": "exact",
+      "start_frame": 3400,
+      "end_frame": 3407
+    },
+    {
+      "index": 267,
+      "paragraph": 6,
+      "word": "организации",
+      "normalized": "организации",
+      "start": 113.56,
+      "end": 114.1,
+      "probability": 0.932,
+      "alignment": "exact",
+      "start_frame": 3407,
+      "end_frame": 3423
+    },
+    {
+      "index": 268,
+      "paragraph": 6,
+      "word": "МЕТР",
+      "normalized": "метр",
+      "start": 114.1,
+      "end": 114.48,
+      "probability": 0.8821,
+      "alignment": "exact",
+      "start_frame": 3423,
+      "end_frame": 3434
+    },
+    {
+      "index": 269,
+      "paragraph": 6,
+      "word": "проверили",
+      "normalized": "проверили",
+      "start": 114.48,
+      "end": 115.16,
+      "probability": 0.9853,
+      "alignment": "exact",
+      "start_frame": 3434,
+      "end_frame": 3455
+    },
+    {
+      "index": 270,
+      "paragraph": 6,
+      "word": "опытных",
+      "normalized": "опытных",
+      "start": 115.16,
+      "end": 115.64,
+      "probability": 0.9884,
+      "alignment": "exact",
+      "start_frame": 3455,
+      "end_frame": 3469
+    },
+    {
+      "index": 271,
+      "paragraph": 6,
+      "word": "программистов",
+      "normalized": "программистов",
+      "start": 115.64,
+      "end": 116.26,
+      "probability": 0.9351,
+      "alignment": "exact",
+      "start_frame": 3469,
+      "end_frame": 3488
+    },
+    {
+      "index": 272,
+      "paragraph": 6,
+      "word": "С",
+      "normalized": "с",
+      "start": 116.62,
+      "end": 116.78,
+      "probability": 0.9255,
+      "alignment": "exact",
+      "start_frame": 3499,
+      "end_frame": 3503
+    },
+    {
+      "index": 273,
+      "paragraph": 6,
+      "word": "ИИ-инструментами",
+      "normalized": "ииинструментами",
+      "start": 116.78,
+      "end": 117.76,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3503,
+      "end_frame": 3533
+    },
+    {
+      "index": 274,
+      "paragraph": 6,
+      "word": "они",
+      "normalized": "они",
+      "start": 117.76,
+      "end": 118.14,
+      "probability": 0.8951,
+      "alignment": "exact",
+      "start_frame": 3533,
+      "end_frame": 3544
+    },
+    {
+      "index": 275,
+      "paragraph": 6,
+      "word": "работали",
+      "normalized": "работали",
+      "start": 118.14,
+      "end": 118.54,
+      "probability": 0.9931,
+      "alignment": "exact",
+      "start_frame": 3544,
+      "end_frame": 3556
+    },
+    {
+      "index": 276,
+      "paragraph": 6,
+      "word": "примерно",
+      "normalized": "примерно",
+      "start": 118.54,
+      "end": 118.86,
+      "probability": 0.9982,
+      "alignment": "exact",
+      "start_frame": 3556,
+      "end_frame": 3566
+    },
+    {
+      "index": 277,
+      "paragraph": 6,
+      "word": "на",
+      "normalized": "на",
+      "start": 118.86,
+      "end": 119.18,
+      "probability": 0.9961,
+      "alignment": "exact",
+      "start_frame": 3566,
+      "end_frame": 3575
+    },
+    {
+      "index": 278,
+      "paragraph": 6,
+      "word": "девятнадцать",
+      "normalized": "девятнадцать",
+      "start": 119.18,
+      "end": 119.33,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3575,
+      "end_frame": 3580
+    },
+    {
+      "index": 279,
+      "paragraph": 6,
+      "word": "процентов",
+      "normalized": "процентов",
+      "start": 119.33,
+      "end": 119.48,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3580,
+      "end_frame": 3584
+    },
+    {
+      "index": 280,
+      "paragraph": 6,
+      "word": "медленнее",
+      "normalized": "медленнее",
+      "start": 120.26,
+      "end": 121.18,
+      "probability": 0.9481,
+      "alignment": "exact",
+      "start_frame": 3608,
+      "end_frame": 3635
+    },
+    {
+      "index": 281,
+      "paragraph": 6,
+      "word": "А",
+      "normalized": "а",
+      "start": 121.64,
+      "end": 121.82,
+      "probability": 0.9528,
+      "alignment": "exact",
+      "start_frame": 3649,
+      "end_frame": 3655
+    },
+    {
+      "index": 282,
+      "paragraph": 6,
+      "word": "самое",
+      "normalized": "самое",
+      "start": 121.82,
+      "end": 122.08,
+      "probability": 0.9084,
+      "alignment": "exact",
+      "start_frame": 3655,
+      "end_frame": 3662
+    },
+    {
+      "index": 283,
+      "paragraph": 6,
+      "word": "смешное",
+      "normalized": "смешное",
+      "start": 122.08,
+      "end": 122.5,
+      "probability": 0.99,
+      "alignment": "exact",
+      "start_frame": 3662,
+      "end_frame": 3675
+    },
+    {
+      "index": 284,
+      "paragraph": 6,
+      "word": "что",
+      "normalized": "что",
+      "start": 122.7,
+      "end": 122.94,
+      "probability": 0.9969,
+      "alignment": "exact",
+      "start_frame": 3681,
+      "end_frame": 3688
+    },
+    {
+      "index": 285,
+      "paragraph": 6,
+      "word": "сами",
+      "normalized": "сами",
+      "start": 122.94,
+      "end": 123.2,
+      "probability": 0.9958,
+      "alignment": "exact",
+      "start_frame": 3688,
+      "end_frame": 3696
+    },
+    {
+      "index": 286,
+      "paragraph": 6,
+      "word": "были",
+      "normalized": "были",
+      "start": 123.2,
+      "end": 123.44,
+      "probability": 0.9981,
+      "alignment": "exact",
+      "start_frame": 3696,
+      "end_frame": 3703
+    },
+    {
+      "index": 287,
+      "paragraph": 6,
+      "word": "уверены",
+      "normalized": "уверены",
+      "start": 123.44,
+      "end": 123.98,
+      "probability": 0.9884,
+      "alignment": "exact",
+      "start_frame": 3703,
+      "end_frame": 3719
+    },
+    {
+      "index": 288,
+      "paragraph": 6,
+      "word": "что",
+      "normalized": "что",
+      "start": 124.02,
+      "end": 124.2,
+      "probability": 0.9972,
+      "alignment": "exact",
+      "start_frame": 3721,
+      "end_frame": 3726
+    },
+    {
+      "index": 289,
+      "paragraph": 6,
+      "word": "ускорились",
+      "normalized": "ускорились",
+      "start": 124.2,
+      "end": 124.7,
+      "probability": 0.9857,
+      "alignment": "exact",
+      "start_frame": 3726,
+      "end_frame": 3741
+    },
+    {
+      "index": 290,
+      "paragraph": 6,
+      "word": "Нейросеть",
+      "normalized": "нейросеть",
+      "start": 125.22,
+      "end": 125.86,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3757,
+      "end_frame": 3776
+    },
+    {
+      "index": 291,
+      "paragraph": 6,
+      "word": "оказывается",
+      "normalized": "оказывается",
+      "start": 125.86,
+      "end": 126.46,
+      "probability": 0.8883,
+      "alignment": "exact",
+      "start_frame": 3776,
+      "end_frame": 3794
+    },
+    {
+      "index": 292,
+      "paragraph": 6,
+      "word": "ещё",
+      "normalized": "еще",
+      "start": 126.46,
+      "end": 126.78,
+      "probability": 0.239,
+      "alignment": "exact",
+      "start_frame": 3794,
+      "end_frame": 3803
+    },
+    {
+      "index": 293,
+      "paragraph": 6,
+      "word": "и",
+      "normalized": "и",
+      "start": 126.78,
+      "end": 126.92,
+      "probability": 0.9909,
+      "alignment": "exact",
+      "start_frame": 3803,
+      "end_frame": 3808
+    },
+    {
+      "index": 294,
+      "paragraph": 6,
+      "word": "отлично",
+      "normalized": "отлично",
+      "start": 126.92,
+      "end": 127.32,
+      "probability": 0.8936,
+      "alignment": "exact",
+      "start_frame": 3808,
+      "end_frame": 3820
+    },
+    {
+      "index": 295,
+      "paragraph": 6,
+      "word": "создаёт",
+      "normalized": "создает",
+      "start": 127.32,
+      "end": 127.82,
+      "probability": 0.8722,
+      "alignment": "exact",
+      "start_frame": 3820,
+      "end_frame": 3835
+    },
+    {
+      "index": 296,
+      "paragraph": 6,
+      "word": "иллюзию",
+      "normalized": "иллюзию",
+      "start": 127.82,
+      "end": 128.38,
+      "probability": 0.8853,
+      "alignment": "exact",
+      "start_frame": 3835,
+      "end_frame": 3851
+    },
+    {
+      "index": 297,
+      "paragraph": 6,
+      "word": "эффективности",
+      "normalized": "эффективности",
+      "start": 128.38,
+      "end": 129.04,
+      "probability": 0.9836,
+      "alignment": "exact",
+      "start_frame": 3851,
+      "end_frame": 3871
+    },
+    {
+      "index": 298,
+      "paragraph": 6,
+      "word": "Честная",
+      "normalized": "честная",
+      "start": 129.62,
+      "end": 130.14,
+      "probability": 0.8182,
+      "alignment": "exact",
+      "start_frame": 3889,
+      "end_frame": 3904
+    },
+    {
+      "index": 299,
+      "paragraph": 6,
+      "word": "оговорка",
+      "normalized": "оговорка",
+      "start": 130.14,
+      "end": 130.56,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 3904,
+      "end_frame": 3917
+    },
+    {
+      "index": 300,
+      "paragraph": 6,
+      "word": "выборка",
+      "normalized": "выборка",
+      "start": 130.92,
+      "end": 131.28,
+      "probability": 0.9721,
+      "alignment": "exact",
+      "start_frame": 3928,
+      "end_frame": 3938
+    },
+    {
+      "index": 301,
+      "paragraph": 6,
+      "word": "была",
+      "normalized": "была",
+      "start": 131.28,
+      "end": 131.46,
+      "probability": 0.8584,
+      "alignment": "exact",
+      "start_frame": 3938,
+      "end_frame": 3944
+    },
+    {
+      "index": 302,
+      "paragraph": 6,
+      "word": "небольшой",
+      "normalized": "небольшой",
+      "start": 131.46,
+      "end": 132.02,
+      "probability": 0.9951,
+      "alignment": "exact",
+      "start_frame": 3944,
+      "end_frame": 3961
+    },
+    {
+      "index": 303,
+      "paragraph": 6,
+      "word": "и",
+      "normalized": "и",
+      "start": 132.32,
+      "end": 132.38,
+      "probability": 0.9748,
+      "alignment": "exact",
+      "start_frame": 3970,
+      "end_frame": 3971
+    },
+    {
+      "index": 304,
+      "paragraph": 6,
+      "word": "авторы",
+      "normalized": "авторы",
+      "start": 132.38,
+      "end": 132.6,
+      "probability": 0.9699,
+      "alignment": "exact",
+      "start_frame": 3971,
+      "end_frame": 3978
+    },
+    {
+      "index": 305,
+      "paragraph": 6,
+      "word": "подчёркивают",
+      "normalized": "подчеркивают",
+      "start": 132.6,
+      "end": 133.24,
+      "probability": 0.8256,
+      "alignment": "exact",
+      "start_frame": 3978,
+      "end_frame": 3997
+    },
+    {
+      "index": 306,
+      "paragraph": 6,
+      "word": "что",
+      "normalized": "что",
+      "start": 133.34,
+      "end": 133.44,
+      "probability": 0.9961,
+      "alignment": "exact",
+      "start_frame": 4000,
+      "end_frame": 4003
+    },
+    {
+      "index": 307,
+      "paragraph": 6,
+      "word": "результат",
+      "normalized": "результат",
+      "start": 133.44,
+      "end": 133.74,
+      "probability": 0.9855,
+      "alignment": "exact",
+      "start_frame": 4003,
+      "end_frame": 4012
+    },
+    {
+      "index": 308,
+      "paragraph": 6,
+      "word": "нельзя",
+      "normalized": "нельзя",
+      "start": 133.74,
+      "end": 134.18,
+      "probability": 0.9968,
+      "alignment": "exact",
+      "start_frame": 4012,
+      "end_frame": 4025
+    },
+    {
+      "index": 309,
+      "paragraph": 6,
+      "word": "автоматически",
+      "normalized": "автоматически",
+      "start": 134.18,
+      "end": 135.1,
+      "probability": 0.9862,
+      "alignment": "exact",
+      "start_frame": 4025,
+      "end_frame": 4053
+    },
+    {
+      "index": 310,
+      "paragraph": 6,
+      "word": "переносить",
+      "normalized": "переносить",
+      "start": 135.1,
+      "end": 135.68,
+      "probability": 0.9567,
+      "alignment": "exact",
+      "start_frame": 4053,
+      "end_frame": 4070
+    },
+    {
+      "index": 311,
+      "paragraph": 6,
+      "word": "на",
+      "normalized": "на",
+      "start": 135.68,
+      "end": 135.96,
+      "probability": 0.9621,
+      "alignment": "exact",
+      "start_frame": 4070,
+      "end_frame": 4079
+    },
+    {
+      "index": 312,
+      "paragraph": 6,
+      "word": "все",
+      "normalized": "все",
+      "start": 135.96,
+      "end": 136.26,
+      "probability": 0.9593,
+      "alignment": "exact",
+      "start_frame": 4079,
+      "end_frame": 4088
+    },
+    {
+      "index": 313,
+      "paragraph": 6,
+      "word": "задачи",
+      "normalized": "задачи",
+      "start": 136.26,
+      "end": 136.74,
+      "probability": 0.995,
+      "alignment": "exact",
+      "start_frame": 4088,
+      "end_frame": 4102
+    },
+    {
+      "index": 314,
+      "paragraph": 6,
+      "word": "Но",
+      "normalized": "но",
+      "start": 136.74,
+      "end": 137.42,
+      "probability": 0.5034,
+      "alignment": "exact",
+      "start_frame": 4102,
+      "end_frame": 4123
+    },
+    {
+      "index": 315,
+      "paragraph": 6,
+      "word": "разрыв",
+      "normalized": "разрыв",
+      "start": 137.42,
+      "end": 137.74,
+      "probability": 0.8983,
+      "alignment": "exact",
+      "start_frame": 4123,
+      "end_frame": 4132
+    },
+    {
+      "index": 316,
+      "paragraph": 6,
+      "word": "между",
+      "normalized": "между",
+      "start": 137.74,
+      "end": 138.12,
+      "probability": 0.9032,
+      "alignment": "exact",
+      "start_frame": 4132,
+      "end_frame": 4144
+    },
+    {
+      "index": 317,
+      "paragraph": 6,
+      "word": "ощущением",
+      "normalized": "ощущением",
+      "start": 138.12,
+      "end": 138.94,
+      "probability": 0.9715,
+      "alignment": "exact",
+      "start_frame": 4144,
+      "end_frame": 4168
+    },
+    {
+      "index": 318,
+      "paragraph": 6,
+      "word": "и",
+      "normalized": "и",
+      "start": 138.94,
+      "end": 139.16,
+      "probability": 0.9886,
+      "alignment": "exact",
+      "start_frame": 4168,
+      "end_frame": 4175
+    },
+    {
+      "index": 319,
+      "paragraph": 6,
+      "word": "реальностью",
+      "normalized": "реальностью",
+      "start": 139.16,
+      "end": 139.72,
+      "probability": 0.887,
+      "alignment": "exact",
+      "start_frame": 4175,
+      "end_frame": 4192
+    },
+    {
+      "index": 320,
+      "paragraph": 6,
+      "word": "заставляет",
+      "normalized": "заставляет",
+      "start": 139.72,
+      "end": 140.56,
+      "probability": 0.9709,
+      "alignment": "exact",
+      "start_frame": 4192,
+      "end_frame": 4217
+    },
+    {
+      "index": 321,
+      "paragraph": 6,
+      "word": "задуматься",
+      "normalized": "задуматься",
+      "start": 140.56,
+      "end": 141.04,
+      "probability": 0.9804,
+      "alignment": "exact",
+      "start_frame": 4217,
+      "end_frame": 4231
+    },
+    {
+      "index": 322,
+      "paragraph": 7,
+      "word": "В",
+      "normalized": "в",
+      "start": 141.64,
+      "end": 142.04,
+      "probability": 0.98,
+      "alignment": "exact",
+      "start_frame": 4249,
+      "end_frame": 4261
+    },
+    {
+      "index": 323,
+      "paragraph": 7,
+      "word": "бизнесе",
+      "normalized": "бизнесе",
+      "start": 142.04,
+      "end": 142.52,
+      "probability": 0.9833,
+      "alignment": "exact",
+      "start_frame": 4261,
+      "end_frame": 4276
+    },
+    {
+      "index": 324,
+      "paragraph": 7,
+      "word": "картина",
+      "normalized": "картина",
+      "start": 142.52,
+      "end": 142.94,
+      "probability": 0.8125,
+      "alignment": "exact",
+      "start_frame": 4276,
+      "end_frame": 4288
+    },
+    {
+      "index": 325,
+      "paragraph": 7,
+      "word": "похожая",
+      "normalized": "похожая",
+      "start": 142.94,
+      "end": 143.46,
+      "probability": 0.8783,
+      "alignment": "exact",
+      "start_frame": 4288,
+      "end_frame": 4304
+    },
+    {
+      "index": 326,
+      "paragraph": 7,
+      "word": "По",
+      "normalized": "по",
+      "start": 143.98,
+      "end": 144.14,
+      "probability": 0.9842,
+      "alignment": "exact",
+      "start_frame": 4319,
+      "end_frame": 4324
+    },
+    {
+      "index": 327,
+      "paragraph": 7,
+      "word": "отчёту",
+      "normalized": "отчету",
+      "start": 144.14,
+      "end": 144.46,
+      "probability": 0.8882,
+      "alignment": "exact",
+      "start_frame": 4324,
+      "end_frame": 4334
+    },
+    {
+      "index": 328,
+      "paragraph": 7,
+      "word": "Массачусетского",
+      "normalized": "массачусетского",
+      "start": 144.46,
+      "end": 145.38,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4334,
+      "end_frame": 4361
+    },
+    {
+      "index": 329,
+      "paragraph": 7,
+      "word": "технологического",
+      "normalized": "технологического",
+      "start": 145.38,
+      "end": 146.16,
+      "probability": 0.9176,
+      "alignment": "exact",
+      "start_frame": 4361,
+      "end_frame": 4385
+    },
+    {
+      "index": 330,
+      "paragraph": 7,
+      "word": "института",
+      "normalized": "института",
+      "start": 146.16,
+      "end": 146.86,
+      "probability": 0.9443,
+      "alignment": "exact",
+      "start_frame": 4385,
+      "end_frame": 4406
+    },
+    {
+      "index": 331,
+      "paragraph": 7,
+      "word": "за",
+      "normalized": "за",
+      "start": 146.86,
+      "end": 147.08,
+      "probability": 0.9862,
+      "alignment": "exact",
+      "start_frame": 4406,
+      "end_frame": 4412
+    },
+    {
+      "index": 332,
+      "paragraph": 7,
+      "word": "две",
+      "normalized": "две",
+      "start": 147.08,
+      "end": 147.29,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4412,
+      "end_frame": 4419
+    },
+    {
+      "index": 333,
+      "paragraph": 7,
+      "word": "тысячи",
+      "normalized": "тысячи",
+      "start": 147.29,
+      "end": 147.5,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4419,
+      "end_frame": 4425
+    },
+    {
+      "index": 334,
+      "paragraph": 7,
+      "word": "двадцать",
+      "normalized": "двадцать",
+      "start": 147.5,
+      "end": 147.71,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4425,
+      "end_frame": 4431
+    },
+    {
+      "index": 335,
+      "paragraph": 7,
+      "word": "пятый",
+      "normalized": "пятый",
+      "start": 147.71,
+      "end": 147.92,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4431,
+      "end_frame": 4438
+    },
+    {
+      "index": 336,
+      "paragraph": 7,
+      "word": "год",
+      "normalized": "год",
+      "start": 147.92,
+      "end": 148.48,
+      "probability": 0.7997,
+      "alignment": "exact",
+      "start_frame": 4438,
+      "end_frame": 4454
+    },
+    {
+      "index": 337,
+      "paragraph": 7,
+      "word": "около",
+      "normalized": "около",
+      "start": 148.8,
+      "end": 148.96,
+      "probability": 0.8555,
+      "alignment": "exact",
+      "start_frame": 4464,
+      "end_frame": 4469
+    },
+    {
+      "index": 338,
+      "paragraph": 7,
+      "word": "девяноста",
+      "normalized": "девяноста",
+      "start": 148.96,
+      "end": 149.18,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4469,
+      "end_frame": 4475
+    },
+    {
+      "index": 339,
+      "paragraph": 7,
+      "word": "пяти",
+      "normalized": "пяти",
+      "start": 149.18,
+      "end": 149.4,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4475,
+      "end_frame": 4482
+    },
+    {
+      "index": 340,
+      "paragraph": 7,
+      "word": "процентов",
+      "normalized": "процентов",
+      "start": 149.4,
+      "end": 149.62,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4482,
+      "end_frame": 4489
+    },
+    {
+      "index": 341,
+      "paragraph": 7,
+      "word": "корпоративных",
+      "normalized": "корпоративных",
+      "start": 150.52,
+      "end": 151.24,
+      "probability": 0.9714,
+      "alignment": "exact",
+      "start_frame": 4516,
+      "end_frame": 4537
+    },
+    {
+      "index": 342,
+      "paragraph": 7,
+      "word": "пилотных",
+      "normalized": "пилотных",
+      "start": 151.24,
+      "end": 151.74,
+      "probability": 0.9186,
+      "alignment": "exact",
+      "start_frame": 4537,
+      "end_frame": 4552
+    },
+    {
+      "index": 343,
+      "paragraph": 7,
+      "word": "проектов",
+      "normalized": "проектов",
+      "start": 151.74,
+      "end": 152.22,
+      "probability": 0.8815,
+      "alignment": "exact",
+      "start_frame": 4552,
+      "end_frame": 4567
+    },
+    {
+      "index": 344,
+      "paragraph": 7,
+      "word": "с",
+      "normalized": "с",
+      "start": 152.22,
+      "end": 152.52,
+      "probability": 0.9938,
+      "alignment": "exact",
+      "start_frame": 4567,
+      "end_frame": 4576
+    },
+    {
+      "index": 345,
+      "paragraph": 7,
+      "word": "генеративным",
+      "normalized": "генеративным",
+      "start": 152.52,
+      "end": 153.2,
+      "probability": 0.8856,
+      "alignment": "exact",
+      "start_frame": 4576,
+      "end_frame": 4596
+    },
+    {
+      "index": 346,
+      "paragraph": 7,
+      "word": "ИИ",
+      "normalized": "ии",
+      "start": 153.2,
+      "end": 153.56,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4596,
+      "end_frame": 4607
+    },
+    {
+      "index": 347,
+      "paragraph": 7,
+      "word": "не",
+      "normalized": "не",
+      "start": 153.56,
+      "end": 154.08,
+      "probability": 0.8301,
+      "alignment": "exact",
+      "start_frame": 4607,
+      "end_frame": 4622
+    },
+    {
+      "index": 348,
+      "paragraph": 7,
+      "word": "дали",
+      "normalized": "дали",
+      "start": 154.08,
+      "end": 154.4,
+      "probability": 0.975,
+      "alignment": "exact",
+      "start_frame": 4622,
+      "end_frame": 4632
+    },
+    {
+      "index": 349,
+      "paragraph": 7,
+      "word": "заметного",
+      "normalized": "заметного",
+      "start": 154.4,
+      "end": 154.92,
+      "probability": 0.6554,
+      "alignment": "exact",
+      "start_frame": 4632,
+      "end_frame": 4648
+    },
+    {
+      "index": 350,
+      "paragraph": 7,
+      "word": "эффекта",
+      "normalized": "эффекта",
+      "start": 154.92,
+      "end": 155.28,
+      "probability": 0.9955,
+      "alignment": "exact",
+      "start_frame": 4648,
+      "end_frame": 4658
+    },
+    {
+      "index": 351,
+      "paragraph": 7,
+      "word": "на",
+      "normalized": "на",
+      "start": 155.28,
+      "end": 155.36,
+      "probability": 0.5466,
+      "alignment": "exact",
+      "start_frame": 4658,
+      "end_frame": 4661
+    },
+    {
+      "index": 352,
+      "paragraph": 7,
+      "word": "прибыль",
+      "normalized": "прибыль",
+      "start": 155.36,
+      "end": 155.64,
+      "probability": 0.8883,
+      "alignment": "exact",
+      "start_frame": 4661,
+      "end_frame": 4669
+    },
+    {
+      "index": 353,
+      "paragraph": 7,
+      "word": "Методику",
+      "normalized": "методику",
+      "start": 156.24,
+      "end": 156.68,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4687,
+      "end_frame": 4700
+    },
+    {
+      "index": 354,
+      "paragraph": 7,
+      "word": "отчёта",
+      "normalized": "отчета",
+      "start": 156.68,
+      "end": 157.04,
+      "probability": 0.9687,
+      "alignment": "exact",
+      "start_frame": 4700,
+      "end_frame": 4711
+    },
+    {
+      "index": 355,
+      "paragraph": 7,
+      "word": "правда",
+      "normalized": "правда",
+      "start": 157.04,
+      "end": 157.34,
+      "probability": 0.9623,
+      "alignment": "exact",
+      "start_frame": 4711,
+      "end_frame": 4720
+    },
+    {
+      "index": 356,
+      "paragraph": 7,
+      "word": "критикуют",
+      "normalized": "критикуют",
+      "start": 157.34,
+      "end": 157.84,
+      "probability": 0.894,
+      "alignment": "exact",
+      "start_frame": 4720,
+      "end_frame": 4735
+    },
+    {
+      "index": 357,
+      "paragraph": 7,
+      "word": "А",
+      "normalized": "а",
+      "start": 158.44,
+      "end": 158.56,
+      "probability": 0.9202,
+      "alignment": "exact",
+      "start_frame": 4753,
+      "end_frame": 4757
+    },
+    {
+      "index": 358,
+      "paragraph": 7,
+      "word": "шведская",
+      "normalized": "шведская",
+      "start": 158.56,
+      "end": 158.98,
+      "probability": 0.7868,
+      "alignment": "exact",
+      "start_frame": 4757,
+      "end_frame": 4769
+    },
+    {
+      "index": 359,
+      "paragraph": 7,
+      "word": "компания",
+      "normalized": "компания",
+      "start": 158.98,
+      "end": 159.42,
+      "probability": 0.9525,
+      "alignment": "exact",
+      "start_frame": 4769,
+      "end_frame": 4783
+    },
+    {
+      "index": 360,
+      "paragraph": 7,
+      "word": "Клярна",
+      "normalized": "клярна",
+      "start": 159.42,
+      "end": 159.92,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4783,
+      "end_frame": 4798
+    },
+    {
+      "index": 361,
+      "paragraph": 7,
+      "word": "громко",
+      "normalized": "громко",
+      "start": 159.92,
+      "end": 160.56,
+      "probability": 0.7161,
+      "alignment": "exact",
+      "start_frame": 4798,
+      "end_frame": 4817
+    },
+    {
+      "index": 362,
+      "paragraph": 7,
+      "word": "рассказывала",
+      "normalized": "рассказывала",
+      "start": 160.56,
+      "end": 161.1,
+      "probability": 0.9755,
+      "alignment": "exact",
+      "start_frame": 4817,
+      "end_frame": 4833
+    },
+    {
+      "index": 363,
+      "paragraph": 7,
+      "word": "как",
+      "normalized": "как",
+      "start": 161.1,
+      "end": 161.28,
+      "probability": 0.9969,
+      "alignment": "exact",
+      "start_frame": 4833,
+      "end_frame": 4838
+    },
+    {
+      "index": 364,
+      "paragraph": 7,
+      "word": "ИИ",
+      "normalized": "ии",
+      "start": 161.28,
+      "end": 161.8,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4838,
+      "end_frame": 4854
+    },
+    {
+      "index": 365,
+      "paragraph": 7,
+      "word": "заменил",
+      "normalized": "заменил",
+      "start": 161.8,
+      "end": 162.22,
+      "probability": 0.8035,
+      "alignment": "exact",
+      "start_frame": 4854,
+      "end_frame": 4867
+    },
+    {
+      "index": 366,
+      "paragraph": 7,
+      "word": "сотни",
+      "normalized": "сотни",
+      "start": 162.22,
+      "end": 162.7,
+      "probability": 0.9847,
+      "alignment": "exact",
+      "start_frame": 4867,
+      "end_frame": 4881
+    },
+    {
+      "index": 367,
+      "paragraph": 7,
+      "word": "сотрудников",
+      "normalized": "сотрудников",
+      "start": 162.7,
+      "end": 163.22,
+      "probability": 0.9978,
+      "alignment": "exact",
+      "start_frame": 4881,
+      "end_frame": 4897
+    },
+    {
+      "index": 368,
+      "paragraph": 7,
+      "word": "поддержки",
+      "normalized": "поддержки",
+      "start": 163.22,
+      "end": 163.88,
+      "probability": 0.9881,
+      "alignment": "exact",
+      "start_frame": 4897,
+      "end_frame": 4916
+    },
+    {
+      "index": 369,
+      "paragraph": 7,
+      "word": "а",
+      "normalized": "а",
+      "start": 164.38,
+      "end": 164.44,
+      "probability": 0.9941,
+      "alignment": "exact",
+      "start_frame": 4931,
+      "end_frame": 4933
+    },
+    {
+      "index": 370,
+      "paragraph": 7,
+      "word": "потом",
+      "normalized": "потом",
+      "start": 164.44,
+      "end": 164.66,
+      "probability": 0.9972,
+      "alignment": "exact",
+      "start_frame": 4933,
+      "end_frame": 4940
+    },
+    {
+      "index": 371,
+      "paragraph": 7,
+      "word": "её",
+      "normalized": "ее",
+      "start": 164.66,
+      "end": 164.9,
+      "probability": 0.4314,
+      "alignment": "exact",
+      "start_frame": 4940,
+      "end_frame": 4947
+    },
+    {
+      "index": 372,
+      "paragraph": 7,
+      "word": "руководитель",
+      "normalized": "руководитель",
+      "start": 164.9,
+      "end": 165.46,
+      "probability": 0.8621,
+      "alignment": "exact",
+      "start_frame": 4947,
+      "end_frame": 4964
+    },
+    {
+      "index": 373,
+      "paragraph": 7,
+      "word": "признал",
+      "normalized": "признал",
+      "start": 165.46,
+      "end": 165.84,
+      "probability": 0.8837,
+      "alignment": "exact",
+      "start_frame": 4964,
+      "end_frame": 4975
+    },
+    {
+      "index": 374,
+      "paragraph": 7,
+      "word": "что",
+      "normalized": "что",
+      "start": 165.84,
+      "end": 166.04,
+      "probability": 0.1649,
+      "alignment": "exact",
+      "start_frame": 4975,
+      "end_frame": 4981
+    },
+    {
+      "index": 375,
+      "paragraph": 7,
+      "word": "в",
+      "normalized": "в",
+      "start": 166.04,
+      "end": 166.16,
+      "probability": 0.9666,
+      "alignment": "exact",
+      "start_frame": 4981,
+      "end_frame": 4985
+    },
+    {
+      "index": 376,
+      "paragraph": 7,
+      "word": "погоне",
+      "normalized": "погоне",
+      "start": 166.16,
+      "end": 166.46,
+      "probability": 0.8892,
+      "alignment": "exact",
+      "start_frame": 4985,
+      "end_frame": 4994
+    },
+    {
+      "index": 377,
+      "paragraph": 7,
+      "word": "за",
+      "normalized": "за",
+      "start": 166.46,
+      "end": 166.62,
+      "probability": 0.9869,
+      "alignment": "exact",
+      "start_frame": 4994,
+      "end_frame": 4999
+    },
+    {
+      "index": 378,
+      "paragraph": 7,
+      "word": "экономией",
+      "normalized": "экономией",
+      "start": 166.62,
+      "end": 167.04,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 4999,
+      "end_frame": 5011
+    },
+    {
+      "index": 379,
+      "paragraph": 7,
+      "word": "пострадало",
+      "normalized": "пострадало",
+      "start": 167.04,
+      "end": 167.56,
+      "probability": 0.8354,
+      "alignment": "exact",
+      "start_frame": 5011,
+      "end_frame": 5027
+    },
+    {
+      "index": 380,
+      "paragraph": 7,
+      "word": "качество",
+      "normalized": "качество",
+      "start": 167.56,
+      "end": 168.12,
+      "probability": 0.9608,
+      "alignment": "exact",
+      "start_frame": 5027,
+      "end_frame": 5044
+    },
+    {
+      "index": 381,
+      "paragraph": 7,
+      "word": "и",
+      "normalized": "и",
+      "start": 168.44,
+      "end": 168.48,
+      "probability": 0.9852,
+      "alignment": "exact",
+      "start_frame": 5053,
+      "end_frame": 5054
+    },
+    {
+      "index": 382,
+      "paragraph": 7,
+      "word": "людей",
+      "normalized": "людей",
+      "start": 168.48,
+      "end": 168.78,
+      "probability": 0.9806,
+      "alignment": "exact",
+      "start_frame": 5054,
+      "end_frame": 5063
+    },
+    {
+      "index": 383,
+      "paragraph": 7,
+      "word": "придётся",
+      "normalized": "придется",
+      "start": 168.78,
+      "end": 169.38,
+      "probability": 0.757,
+      "alignment": "exact",
+      "start_frame": 5063,
+      "end_frame": 5081
+    },
+    {
+      "index": 384,
+      "paragraph": 7,
+      "word": "возвращать",
+      "normalized": "возвращать",
+      "start": 169.38,
+      "end": 170.06,
+      "probability": 0.9889,
+      "alignment": "exact",
+      "start_frame": 5081,
+      "end_frame": 5102
+    },
+    {
+      "index": 385,
+      "paragraph": 7,
+      "word": "Вот",
+      "normalized": "вот",
+      "start": 170.48,
+      "end": 170.76,
+      "probability": 0.7522,
+      "alignment": "exact",
+      "start_frame": 5114,
+      "end_frame": 5123
+    },
+    {
+      "index": 386,
+      "paragraph": 7,
+      "word": "вам",
+      "normalized": "вам",
+      "start": 170.76,
+      "end": 171.02,
+      "probability": 0.9695,
+      "alignment": "exact",
+      "start_frame": 5123,
+      "end_frame": 5131
+    },
+    {
+      "index": 387,
+      "paragraph": 7,
+      "word": "и",
+      "normalized": "и",
+      "start": 171.02,
+      "end": 171.2,
+      "probability": 0.8374,
+      "alignment": "exact",
+      "start_frame": 5131,
+      "end_frame": 5136
+    },
+    {
+      "index": 388,
+      "paragraph": 7,
+      "word": "революция",
+      "normalized": "революция",
+      "start": 171.2,
+      "end": 171.62,
+      "probability": 0.9477,
+      "alignment": "exact",
+      "start_frame": 5136,
+      "end_frame": 5149
+    },
+    {
+      "index": 389,
+      "paragraph": 8,
+      "word": "Так",
+      "normalized": "так",
+      "start": 172.5,
+      "end": 172.68,
+      "probability": 0.9491,
+      "alignment": "exact",
+      "start_frame": 5175,
+      "end_frame": 5180
+    },
+    {
+      "index": 390,
+      "paragraph": 8,
+      "word": "что",
+      "normalized": "что",
+      "start": 172.68,
+      "end": 172.96,
+      "probability": 0.9861,
+      "alignment": "exact",
+      "start_frame": 5180,
+      "end_frame": 5189
+    },
+    {
+      "index": 391,
+      "paragraph": 8,
+      "word": "выбросить",
+      "normalized": "выбросить",
+      "start": 172.96,
+      "end": 173.62,
+      "probability": 0.8274,
+      "alignment": "exact",
+      "start_frame": 5189,
+      "end_frame": 5209
+    },
+    {
+      "index": 392,
+      "paragraph": 8,
+      "word": "нейросети",
+      "normalized": "нейросети",
+      "start": 173.62,
+      "end": 174.06,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5209,
+      "end_frame": 5222
+    },
+    {
+      "index": 393,
+      "paragraph": 8,
+      "word": "Нет",
+      "normalized": "нет",
+      "start": 174.66,
+      "end": 174.8,
+      "probability": 0.9693,
+      "alignment": "exact",
+      "start_frame": 5240,
+      "end_frame": 5244
+    },
+    {
+      "index": 394,
+      "paragraph": 8,
+      "word": "Ловушка",
+      "normalized": "ловушка",
+      "start": 175.36,
+      "end": 175.7,
+      "probability": 0.9263,
+      "alignment": "exact",
+      "start_frame": 5261,
+      "end_frame": 5271
+    },
+    {
+      "index": 395,
+      "paragraph": 8,
+      "word": "не",
+      "normalized": "не",
+      "start": 175.7,
+      "end": 176.08,
+      "probability": 0.8647,
+      "alignment": "exact",
+      "start_frame": 5271,
+      "end_frame": 5282
+    },
+    {
+      "index": 396,
+      "paragraph": 8,
+      "word": "в",
+      "normalized": "в",
+      "start": 176.08,
+      "end": 176.18,
+      "probability": 0.9799,
+      "alignment": "exact",
+      "start_frame": 5282,
+      "end_frame": 5285
+    },
+    {
+      "index": 397,
+      "paragraph": 8,
+      "word": "самом",
+      "normalized": "самом",
+      "start": 176.18,
+      "end": 176.42,
+      "probability": 0.8706,
+      "alignment": "exact",
+      "start_frame": 5285,
+      "end_frame": 5293
+    },
+    {
+      "index": 398,
+      "paragraph": 8,
+      "word": "ИИ",
+      "normalized": "ии",
+      "start": 176.42,
+      "end": 176.94,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5293,
+      "end_frame": 5308
+    },
+    {
+      "index": 399,
+      "paragraph": 8,
+      "word": "а",
+      "normalized": "а",
+      "start": 177.18,
+      "end": 177.38,
+      "probability": 0.9658,
+      "alignment": "exact",
+      "start_frame": 5315,
+      "end_frame": 5321
+    },
+    {
+      "index": 400,
+      "paragraph": 8,
+      "word": "в",
+      "normalized": "в",
+      "start": 177.38,
+      "end": 177.62,
+      "probability": 0.9968,
+      "alignment": "exact",
+      "start_frame": 5321,
+      "end_frame": 5329
+    },
+    {
+      "index": 401,
+      "paragraph": 8,
+      "word": "наших",
+      "normalized": "наших",
+      "start": 177.62,
+      "end": 177.84,
+      "probability": 0.9516,
+      "alignment": "exact",
+      "start_frame": 5329,
+      "end_frame": 5335
+    },
+    {
+      "index": 402,
+      "paragraph": 8,
+      "word": "ожиданиях",
+      "normalized": "ожиданиях",
+      "start": 177.84,
+      "end": 178.48,
+      "probability": 0.9832,
+      "alignment": "exact",
+      "start_frame": 5335,
+      "end_frame": 5354
+    },
+    {
+      "index": 403,
+      "paragraph": 8,
+      "word": "Нам",
+      "normalized": "нам",
+      "start": 179.0,
+      "end": 179.18,
+      "probability": 0.9752,
+      "alignment": "exact",
+      "start_frame": 5370,
+      "end_frame": 5375
+    },
+    {
+      "index": 404,
+      "paragraph": 8,
+      "word": "продали",
+      "normalized": "продали",
+      "start": 179.18,
+      "end": 179.72,
+      "probability": 0.9764,
+      "alignment": "exact",
+      "start_frame": 5375,
+      "end_frame": 5392
+    },
+    {
+      "index": 405,
+      "paragraph": 8,
+      "word": "волшебника",
+      "normalized": "волшебника",
+      "start": 179.72,
+      "end": 180.34,
+      "probability": 0.9654,
+      "alignment": "exact",
+      "start_frame": 5392,
+      "end_frame": 5410
+    },
+    {
+      "index": 406,
+      "paragraph": 8,
+      "word": "а",
+      "normalized": "а",
+      "start": 180.64,
+      "end": 180.72,
+      "probability": 0.9797,
+      "alignment": "exact",
+      "start_frame": 5419,
+      "end_frame": 5422
+    },
+    {
+      "index": 407,
+      "paragraph": 8,
+      "word": "мы",
+      "normalized": "мы",
+      "start": 180.72,
+      "end": 180.86,
+      "probability": 0.9966,
+      "alignment": "exact",
+      "start_frame": 5422,
+      "end_frame": 5426
+    },
+    {
+      "index": 408,
+      "paragraph": 8,
+      "word": "получили",
+      "normalized": "получили",
+      "start": 180.86,
+      "end": 181.28,
+      "probability": 0.9957,
+      "alignment": "exact",
+      "start_frame": 5426,
+      "end_frame": 5438
+    },
+    {
+      "index": 409,
+      "paragraph": 8,
+      "word": "очень",
+      "normalized": "очень",
+      "start": 181.28,
+      "end": 181.66,
+      "probability": 0.9935,
+      "alignment": "exact",
+      "start_frame": 5438,
+      "end_frame": 5450
+    },
+    {
+      "index": 410,
+      "paragraph": 8,
+      "word": "быстрого",
+      "normalized": "быстрого",
+      "start": 181.66,
+      "end": 182.26,
+      "probability": 0.7467,
+      "alignment": "exact",
+      "start_frame": 5450,
+      "end_frame": 5468
+    },
+    {
+      "index": 411,
+      "paragraph": 8,
+      "word": "стажёра",
+      "normalized": "стажера",
+      "start": 182.26,
+      "end": 182.7,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5468,
+      "end_frame": 5481
+    },
+    {
+      "index": 412,
+      "paragraph": 8,
+      "word": "который",
+      "normalized": "который",
+      "start": 182.98,
+      "end": 183.26,
+      "probability": 0.8173,
+      "alignment": "exact",
+      "start_frame": 5489,
+      "end_frame": 5498
+    },
+    {
+      "index": 413,
+      "paragraph": 8,
+      "word": "никогда",
+      "normalized": "никогда",
+      "start": 183.26,
+      "end": 183.8,
+      "probability": 0.989,
+      "alignment": "exact",
+      "start_frame": 5498,
+      "end_frame": 5514
+    },
+    {
+      "index": 414,
+      "paragraph": 8,
+      "word": "не",
+      "normalized": "не",
+      "start": 183.8,
+      "end": 184.08,
+      "probability": 0.9979,
+      "alignment": "exact",
+      "start_frame": 5514,
+      "end_frame": 5522
+    },
+    {
+      "index": 415,
+      "paragraph": 8,
+      "word": "признаётся",
+      "normalized": "признается",
+      "start": 184.08,
+      "end": 184.52,
+      "probability": 0.8359,
+      "alignment": "exact",
+      "start_frame": 5522,
+      "end_frame": 5536
+    },
+    {
+      "index": 416,
+      "paragraph": 8,
+      "word": "что",
+      "normalized": "что",
+      "start": 184.62,
+      "end": 184.78,
+      "probability": 0.9274,
+      "alignment": "exact",
+      "start_frame": 5539,
+      "end_frame": 5543
+    },
+    {
+      "index": 417,
+      "paragraph": 8,
+      "word": "чего-то",
+      "normalized": "чегото",
+      "start": 184.78,
+      "end": 185.18,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5543,
+      "end_frame": 5555
+    },
+    {
+      "index": 418,
+      "paragraph": 8,
+      "word": "не",
+      "normalized": "не",
+      "start": 185.18,
+      "end": 185.3,
+      "probability": 0.9945,
+      "alignment": "exact",
+      "start_frame": 5555,
+      "end_frame": 5559
+    },
+    {
+      "index": 419,
+      "paragraph": 8,
+      "word": "знает",
+      "normalized": "знает",
+      "start": 185.3,
+      "end": 185.58,
+      "probability": 0.9978,
+      "alignment": "exact",
+      "start_frame": 5559,
+      "end_frame": 5567
+    },
+    {
+      "index": 420,
+      "paragraph": 8,
+      "word": "Стажёр",
+      "normalized": "стажер",
+      "start": 186.4,
+      "end": 186.9,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5592,
+      "end_frame": 5607
+    },
+    {
+      "index": 421,
+      "paragraph": 8,
+      "word": "бесценен",
+      "normalized": "бесценен",
+      "start": 186.9,
+      "end": 187.6,
+      "probability": 0.7714,
+      "alignment": "exact",
+      "start_frame": 5607,
+      "end_frame": 5628
+    },
+    {
+      "index": 422,
+      "paragraph": 8,
+      "word": "если",
+      "normalized": "если",
+      "start": 187.9,
+      "end": 188.12,
+      "probability": 0.9941,
+      "alignment": "exact",
+      "start_frame": 5637,
+      "end_frame": 5644
+    },
+    {
+      "index": 423,
+      "paragraph": 8,
+      "word": "вы",
+      "normalized": "вы",
+      "start": 188.12,
+      "end": 188.26,
+      "probability": 0.9531,
+      "alignment": "exact",
+      "start_frame": 5644,
+      "end_frame": 5648
+    },
+    {
+      "index": 424,
+      "paragraph": 8,
+      "word": "проверяете",
+      "normalized": "проверяете",
+      "start": 188.26,
+      "end": 188.96,
+      "probability": 0.9809,
+      "alignment": "exact",
+      "start_frame": 5648,
+      "end_frame": 5669
+    },
+    {
+      "index": 425,
+      "paragraph": 8,
+      "word": "его",
+      "normalized": "его",
+      "start": 188.96,
+      "end": 189.12,
+      "probability": 0.9786,
+      "alignment": "exact",
+      "start_frame": 5669,
+      "end_frame": 5674
+    },
+    {
+      "index": 426,
+      "paragraph": 8,
+      "word": "работу",
+      "normalized": "работу",
+      "start": 189.12,
+      "end": 189.42,
+      "probability": 0.9907,
+      "alignment": "exact",
+      "start_frame": 5674,
+      "end_frame": 5683
+    },
+    {
+      "index": 427,
+      "paragraph": 8,
+      "word": "И",
+      "normalized": "и",
+      "start": 189.9,
+      "end": 190.06,
+      "probability": 0.9657,
+      "alignment": "exact",
+      "start_frame": 5697,
+      "end_frame": 5702
+    },
+    {
+      "index": 428,
+      "paragraph": 8,
+      "word": "опасен",
+      "normalized": "опасен",
+      "start": 190.06,
+      "end": 190.62,
+      "probability": 0.9871,
+      "alignment": "exact",
+      "start_frame": 5702,
+      "end_frame": 5719
+    },
+    {
+      "index": 429,
+      "paragraph": 8,
+      "word": "если",
+      "normalized": "если",
+      "start": 190.92,
+      "end": 191.12,
+      "probability": 0.995,
+      "alignment": "exact",
+      "start_frame": 5728,
+      "end_frame": 5734
+    },
+    {
+      "index": 430,
+      "paragraph": 8,
+      "word": "верите",
+      "normalized": "верите",
+      "start": 191.12,
+      "end": 191.5,
+      "probability": 0.96,
+      "alignment": "exact",
+      "start_frame": 5734,
+      "end_frame": 5745
+    },
+    {
+      "index": 431,
+      "paragraph": 8,
+      "word": "ему",
+      "normalized": "ему",
+      "start": 191.5,
+      "end": 191.66,
+      "probability": 0.9356,
+      "alignment": "exact",
+      "start_frame": 5745,
+      "end_frame": 5750
+    },
+    {
+      "index": 432,
+      "paragraph": 8,
+      "word": "слепо",
+      "normalized": "слепо",
+      "start": 191.66,
+      "end": 192.02,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5750,
+      "end_frame": 5761
+    },
+    {
+      "index": 433,
+      "paragraph": 9,
+      "word": "И",
+      "normalized": "и",
+      "start": 193.16,
+      "end": 193.34,
+      "probability": 0.9829,
+      "alignment": "exact",
+      "start_frame": 5795,
+      "end_frame": 5800
+    },
+    {
+      "index": 434,
+      "paragraph": 9,
+      "word": "вот",
+      "normalized": "вот",
+      "start": 193.34,
+      "end": 193.56,
+      "probability": 0.9908,
+      "alignment": "exact",
+      "start_frame": 5800,
+      "end_frame": 5807
+    },
+    {
+      "index": 435,
+      "paragraph": 9,
+      "word": "обещанная",
+      "normalized": "обещанная",
+      "start": 193.56,
+      "end": 194.26,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 5807,
+      "end_frame": 5828
+    },
+    {
+      "index": 436,
+      "paragraph": 9,
+      "word": "привычка",
+      "normalized": "привычка",
+      "start": 194.26,
+      "end": 194.7,
+      "probability": 0.9845,
+      "alignment": "exact",
+      "start_frame": 5828,
+      "end_frame": 5841
+    },
+    {
+      "index": 437,
+      "paragraph": 9,
+      "word": "Всегда",
+      "normalized": "всегда",
+      "start": 195.3,
+      "end": 195.66,
+      "probability": 0.6721,
+      "alignment": "exact",
+      "start_frame": 5859,
+      "end_frame": 5870
+    },
+    {
+      "index": 438,
+      "paragraph": 9,
+      "word": "задавайте",
+      "normalized": "задавайте",
+      "start": 195.66,
+      "end": 196.12,
+      "probability": 0.9838,
+      "alignment": "exact",
+      "start_frame": 5870,
+      "end_frame": 5884
+    },
+    {
+      "index": 439,
+      "paragraph": 9,
+      "word": "себе",
+      "normalized": "себе",
+      "start": 196.12,
+      "end": 196.36,
+      "probability": 0.8369,
+      "alignment": "exact",
+      "start_frame": 5884,
+      "end_frame": 5891
+    },
+    {
+      "index": 440,
+      "paragraph": 9,
+      "word": "один",
+      "normalized": "один",
+      "start": 196.36,
+      "end": 196.66,
+      "probability": 0.9859,
+      "alignment": "exact",
+      "start_frame": 5891,
+      "end_frame": 5900
+    },
+    {
+      "index": 441,
+      "paragraph": 9,
+      "word": "вопрос",
+      "normalized": "вопрос",
+      "start": 196.66,
+      "end": 196.94,
+      "probability": 0.9995,
+      "alignment": "exact",
+      "start_frame": 5900,
+      "end_frame": 5908
+    },
+    {
+      "index": 442,
+      "paragraph": 9,
+      "word": "что",
+      "normalized": "что",
+      "start": 197.4,
+      "end": 197.82,
+      "probability": 0.9784,
+      "alignment": "exact",
+      "start_frame": 5922,
+      "end_frame": 5935
+    },
+    {
+      "index": 443,
+      "paragraph": 9,
+      "word": "будет",
+      "normalized": "будет",
+      "start": 197.82,
+      "end": 198.2,
+      "probability": 0.9949,
+      "alignment": "exact",
+      "start_frame": 5935,
+      "end_frame": 5946
+    },
+    {
+      "index": 444,
+      "paragraph": 9,
+      "word": "если",
+      "normalized": "если",
+      "start": 198.46,
+      "end": 198.66,
+      "probability": 0.9955,
+      "alignment": "exact",
+      "start_frame": 5954,
+      "end_frame": 5960
+    },
+    {
+      "index": 445,
+      "paragraph": 9,
+      "word": "это",
+      "normalized": "это",
+      "start": 198.66,
+      "end": 199.0,
+      "probability": 0.978,
+      "alignment": "exact",
+      "start_frame": 5960,
+      "end_frame": 5970
+    },
+    {
+      "index": 446,
+      "paragraph": 9,
+      "word": "окажется",
+      "normalized": "окажется",
+      "start": 199.0,
+      "end": 199.62,
+      "probability": 0.9598,
+      "alignment": "exact",
+      "start_frame": 5970,
+      "end_frame": 5989
+    },
+    {
+      "index": 447,
+      "paragraph": 9,
+      "word": "неправдой",
+      "normalized": "неправдой",
+      "start": 199.62,
+      "end": 200.44,
+      "probability": 0.8633,
+      "alignment": "exact",
+      "start_frame": 5989,
+      "end_frame": 6013
+    },
+    {
+      "index": 448,
+      "paragraph": 9,
+      "word": "Если",
+      "normalized": "если",
+      "start": 201.04,
+      "end": 201.36,
+      "probability": 0.9784,
+      "alignment": "exact",
+      "start_frame": 6031,
+      "end_frame": 6041
+    },
+    {
+      "index": 449,
+      "paragraph": 9,
+      "word": "ответ",
+      "normalized": "ответ",
+      "start": 201.36,
+      "end": 201.62,
+      "probability": 0.9843,
+      "alignment": "exact",
+      "start_frame": 6041,
+      "end_frame": 6049
+    },
+    {
+      "index": 450,
+      "paragraph": 9,
+      "word": "ничего",
+      "normalized": "ничего",
+      "start": 201.62,
+      "end": 202.2,
+      "probability": 0.7614,
+      "alignment": "exact",
+      "start_frame": 6049,
+      "end_frame": 6066
+    },
+    {
+      "index": 451,
+      "paragraph": 9,
+      "word": "страшного",
+      "normalized": "страшного",
+      "start": 202.2,
+      "end": 202.72,
+      "probability": 0.9979,
+      "alignment": "exact",
+      "start_frame": 6066,
+      "end_frame": 6082
+    },
+    {
+      "index": 452,
+      "paragraph": 9,
+      "word": "пользуйтесь",
+      "normalized": "пользуйтесь",
+      "start": 203.04,
+      "end": 203.46,
+      "probability": 0.8908,
+      "alignment": "exact",
+      "start_frame": 6091,
+      "end_frame": 6104
+    },
+    {
+      "index": 453,
+      "paragraph": 9,
+      "word": "смело",
+      "normalized": "смело",
+      "start": 203.46,
+      "end": 203.68,
+      "probability": 0.9426,
+      "alignment": "exact",
+      "start_frame": 6104,
+      "end_frame": 6110
+    },
+    {
+      "index": 454,
+      "paragraph": 9,
+      "word": "Если",
+      "normalized": "если",
+      "start": 204.5,
+      "end": 204.74,
+      "probability": 0.9773,
+      "alignment": "exact",
+      "start_frame": 6135,
+      "end_frame": 6142
+    },
+    {
+      "index": 455,
+      "paragraph": 9,
+      "word": "на",
+      "normalized": "на",
+      "start": 204.74,
+      "end": 204.94,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6142,
+      "end_frame": 6148
+    },
+    {
+      "index": 456,
+      "paragraph": 9,
+      "word": "кону",
+      "normalized": "кону",
+      "start": 204.94,
+      "end": 205.14,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6148,
+      "end_frame": 6154
+    },
+    {
+      "index": 457,
+      "paragraph": 9,
+      "word": "деньги",
+      "normalized": "деньги",
+      "start": 205.14,
+      "end": 205.5,
+      "probability": 0.9973,
+      "alignment": "exact",
+      "start_frame": 6154,
+      "end_frame": 6165
+    },
+    {
+      "index": 458,
+      "paragraph": 9,
+      "word": "здоровье",
+      "normalized": "здоровье",
+      "start": 205.88,
+      "end": 206.28,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6176,
+      "end_frame": 6188
+    },
+    {
+      "index": 459,
+      "paragraph": 9,
+      "word": "или",
+      "normalized": "или",
+      "start": 206.28,
+      "end": 206.56,
+      "probability": 0.9774,
+      "alignment": "exact",
+      "start_frame": 6188,
+      "end_frame": 6197
+    },
+    {
+      "index": 460,
+      "paragraph": 9,
+      "word": "закон",
+      "normalized": "закон",
+      "start": 206.56,
+      "end": 206.84,
+      "probability": 0.9813,
+      "alignment": "exact",
+      "start_frame": 6197,
+      "end_frame": 6205
+    },
+    {
+      "index": 461,
+      "paragraph": 9,
+      "word": "проверяйте",
+      "normalized": "проверяйте",
+      "start": 207.48,
+      "end": 208.02,
+      "probability": 0.9744,
+      "alignment": "exact",
+      "start_frame": 6224,
+      "end_frame": 6241
+    },
+    {
+      "index": 462,
+      "paragraph": 9,
+      "word": "по",
+      "normalized": "по",
+      "start": 208.02,
+      "end": 208.2,
+      "probability": 0.9613,
+      "alignment": "exact",
+      "start_frame": 6241,
+      "end_frame": 6246
+    },
+    {
+      "index": 463,
+      "paragraph": 9,
+      "word": "первоисточнику",
+      "normalized": "первоисточнику",
+      "start": 208.2,
+      "end": 209.02,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6246,
+      "end_frame": 6271
+    },
+    {
+      "index": 464,
+      "paragraph": 9,
+      "word": "Всегда",
+      "normalized": "всегда",
+      "start": 209.74,
+      "end": 209.96,
+      "probability": 0.926,
+      "alignment": "exact",
+      "start_frame": 6292,
+      "end_frame": 6299
+    },
+    {
+      "index": 465,
+      "paragraph": 9,
+      "word": "Эта",
+      "normalized": "эта",
+      "start": 210.46,
+      "end": 210.74,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6314,
+      "end_frame": 6322
+    },
+    {
+      "index": 466,
+      "paragraph": 9,
+      "word": "простая",
+      "normalized": "простая",
+      "start": 210.74,
+      "end": 211.3,
+      "probability": 0.918,
+      "alignment": "exact",
+      "start_frame": 6322,
+      "end_frame": 6339
+    },
+    {
+      "index": 467,
+      "paragraph": 9,
+      "word": "привычка",
+      "normalized": "привычка",
+      "start": 211.3,
+      "end": 211.88,
+      "probability": 0.986,
+      "alignment": "exact",
+      "start_frame": 6339,
+      "end_frame": 6356
+    },
+    {
+      "index": 468,
+      "paragraph": 9,
+      "word": "отделяет",
+      "normalized": "отделяет",
+      "start": 211.88,
+      "end": 212.36,
+      "probability": 0.8143,
+      "alignment": "exact",
+      "start_frame": 6356,
+      "end_frame": 6371
+    },
+    {
+      "index": 469,
+      "paragraph": 9,
+      "word": "тех",
+      "normalized": "тех",
+      "start": 212.36,
+      "end": 212.6,
+      "probability": 0.9871,
+      "alignment": "exact",
+      "start_frame": 6371,
+      "end_frame": 6378
+    },
+    {
+      "index": 470,
+      "paragraph": 9,
+      "word": "кого",
+      "normalized": "кого",
+      "start": 212.68,
+      "end": 212.9,
+      "probability": 0.9921,
+      "alignment": "exact",
+      "start_frame": 6380,
+      "end_frame": 6387
+    },
+    {
+      "index": 471,
+      "paragraph": 9,
+      "word": "ИИ",
+      "normalized": "ии",
+      "start": 212.9,
+      "end": 213.14,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6387,
+      "end_frame": 6394
+    },
+    {
+      "index": 472,
+      "paragraph": 9,
+      "word": "усиливает",
+      "normalized": "усиливает",
+      "start": 213.14,
+      "end": 213.92,
+      "probability": 0.9583,
+      "alignment": "exact",
+      "start_frame": 6394,
+      "end_frame": 6418
+    },
+    {
+      "index": 473,
+      "paragraph": 9,
+      "word": "от",
+      "normalized": "от",
+      "start": 214.18,
+      "end": 214.22,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6425,
+      "end_frame": 6427
+    },
+    {
+      "index": 474,
+      "paragraph": 9,
+      "word": "тех",
+      "normalized": "тех",
+      "start": 214.2,
+      "end": 214.46,
+      "probability": 0.9993,
+      "alignment": "exact",
+      "start_frame": 6426,
+      "end_frame": 6434
+    },
+    {
+      "index": 475,
+      "paragraph": 9,
+      "word": "кого",
+      "normalized": "кого",
+      "start": 214.54,
+      "end": 214.7,
+      "probability": 0.9856,
+      "alignment": "exact",
+      "start_frame": 6436,
+      "end_frame": 6441
+    },
+    {
+      "index": 476,
+      "paragraph": 9,
+      "word": "он",
+      "normalized": "он",
+      "start": 214.7,
+      "end": 214.84,
+      "probability": 0.9957,
+      "alignment": "exact",
+      "start_frame": 6441,
+      "end_frame": 6445
+    },
+    {
+      "index": 477,
+      "paragraph": 9,
+      "word": "подставляет",
+      "normalized": "подставляет",
+      "start": 214.84,
+      "end": 215.68,
+      "probability": 0.9926,
+      "alignment": "exact",
+      "start_frame": 6445,
+      "end_frame": 6470
+    },
+    {
+      "index": 478,
+      "paragraph": 10,
+      "word": "А",
+      "normalized": "а",
+      "start": 216.18,
+      "end": 216.38,
+      "probability": 0.9574,
+      "alignment": "exact",
+      "start_frame": 6485,
+      "end_frame": 6491
+    },
+    {
+      "index": 479,
+      "paragraph": 10,
+      "word": "теперь",
+      "normalized": "теперь",
+      "start": 216.38,
+      "end": 216.52,
+      "probability": 0.9862,
+      "alignment": "exact",
+      "start_frame": 6491,
+      "end_frame": 6496
+    },
+    {
+      "index": 480,
+      "paragraph": 10,
+      "word": "честно",
+      "normalized": "честно",
+      "start": 216.52,
+      "end": 216.94,
+      "probability": 0.9549,
+      "alignment": "exact",
+      "start_frame": 6496,
+      "end_frame": 6508
+    },
+    {
+      "index": 481,
+      "paragraph": 10,
+      "word": "вы",
+      "normalized": "вы",
+      "start": 217.38,
+      "end": 217.7,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6521,
+      "end_frame": 6531
+    },
+    {
+      "index": 482,
+      "paragraph": 10,
+      "word": "ловили",
+      "normalized": "ловили",
+      "start": 217.7,
+      "end": 218.02,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6531,
+      "end_frame": 6541
+    },
+    {
+      "index": 483,
+      "paragraph": 10,
+      "word": "нейросеть",
+      "normalized": "нейросеть",
+      "start": 218.02,
+      "end": 218.34,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6541,
+      "end_frame": 6550
+    },
+    {
+      "index": 484,
+      "paragraph": 10,
+      "word": "на",
+      "normalized": "на",
+      "start": 218.34,
+      "end": 218.58,
+      "probability": 0.9663,
+      "alignment": "exact",
+      "start_frame": 6550,
+      "end_frame": 6557
+    },
+    {
+      "index": 485,
+      "paragraph": 10,
+      "word": "откровенной",
+      "normalized": "откровенной",
+      "start": 218.58,
+      "end": 219.32,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6557,
+      "end_frame": 6580
+    },
+    {
+      "index": 486,
+      "paragraph": 10,
+      "word": "лжи",
+      "normalized": "лжи",
+      "start": 219.32,
+      "end": 219.76,
+      "probability": 0.82,
+      "alignment": "exact",
+      "start_frame": 6580,
+      "end_frame": 6593
+    },
+    {
+      "index": 487,
+      "paragraph": 10,
+      "word": "Напишите",
+      "normalized": "напишите",
+      "start": 220.3,
+      "end": 220.66,
+      "probability": 0.9723,
+      "alignment": "exact",
+      "start_frame": 6609,
+      "end_frame": 6620
+    },
+    {
+      "index": 488,
+      "paragraph": 10,
+      "word": "в",
+      "normalized": "в",
+      "start": 220.66,
+      "end": 220.78,
+      "probability": 0.9948,
+      "alignment": "exact",
+      "start_frame": 6620,
+      "end_frame": 6623
+    },
+    {
+      "index": 489,
+      "paragraph": 10,
+      "word": "комментариях",
+      "normalized": "комментариях",
+      "start": 220.78,
+      "end": 221.22,
+      "probability": 0.9873,
+      "alignment": "exact",
+      "start_frame": 6623,
+      "end_frame": 6637
+    },
+    {
+      "index": 490,
+      "paragraph": 10,
+      "word": "самый",
+      "normalized": "самый",
+      "start": 221.22,
+      "end": 221.58,
+      "probability": 0.666,
+      "alignment": "exact",
+      "start_frame": 6637,
+      "end_frame": 6647
+    },
+    {
+      "index": 491,
+      "paragraph": 10,
+      "word": "абсурдный",
+      "normalized": "абсурдный",
+      "start": 221.58,
+      "end": 222.4,
+      "probability": 0.9416,
+      "alignment": "exact",
+      "start_frame": 6647,
+      "end_frame": 6672
+    },
+    {
+      "index": 492,
+      "paragraph": 10,
+      "word": "случай",
+      "normalized": "случай",
+      "start": 222.4,
+      "end": 222.74,
+      "probability": 0.9782,
+      "alignment": "exact",
+      "start_frame": 6672,
+      "end_frame": 6682
+    },
+    {
+      "index": 493,
+      "paragraph": 10,
+      "word": "Я",
+      "normalized": "я",
+      "start": 223.18,
+      "end": 223.48,
+      "probability": 0.2823,
+      "alignment": "exact",
+      "start_frame": 6695,
+      "end_frame": 6704
+    },
+    {
+      "index": 494,
+      "paragraph": 10,
+      "word": "прочитаю",
+      "normalized": "прочитаю",
+      "start": 223.48,
+      "end": 223.88,
+      "probability": 0.9484,
+      "alignment": "exact",
+      "start_frame": 6704,
+      "end_frame": 6716
+    },
+    {
+      "index": 495,
+      "paragraph": 10,
+      "word": "лучшие",
+      "normalized": "лучшие",
+      "start": 223.88,
+      "end": 224.32,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6716,
+      "end_frame": 6730
+    },
+    {
+      "index": 496,
+      "paragraph": 10,
+      "word": "и",
+      "normalized": "и",
+      "start": 224.32,
+      "end": 224.4,
+      "probability": 0.9733,
+      "alignment": "exact",
+      "start_frame": 6730,
+      "end_frame": 6732
+    },
+    {
+      "index": 497,
+      "paragraph": 10,
+      "word": "разберу",
+      "normalized": "разберу",
+      "start": 224.4,
+      "end": 224.7,
+      "probability": 0.9847,
+      "alignment": "exact",
+      "start_frame": 6732,
+      "end_frame": 6741
+    },
+    {
+      "index": 498,
+      "paragraph": 10,
+      "word": "в",
+      "normalized": "в",
+      "start": 224.7,
+      "end": 224.84,
+      "probability": 0.8161,
+      "alignment": "exact",
+      "start_frame": 6741,
+      "end_frame": 6745
+    },
+    {
+      "index": 499,
+      "paragraph": 10,
+      "word": "следующем",
+      "normalized": "следующем",
+      "start": 224.84,
+      "end": 225.2,
+      "probability": 0.9871,
+      "alignment": "exact",
+      "start_frame": 6745,
+      "end_frame": 6756
+    },
+    {
+      "index": 500,
+      "paragraph": 10,
+      "word": "видео",
+      "normalized": "видео",
+      "start": 225.2,
+      "end": 225.44,
+      "probability": 0.977,
+      "alignment": "exact",
+      "start_frame": 6756,
+      "end_frame": 6763
+    },
+    {
+      "index": 501,
+      "paragraph": 10,
+      "word": "Подпишитесь",
+      "normalized": "подпишитесь",
+      "start": 226.26,
+      "end": 226.86,
+      "probability": 0.9641,
+      "alignment": "exact",
+      "start_frame": 6788,
+      "end_frame": 6806
+    },
+    {
+      "index": 502,
+      "paragraph": 10,
+      "word": "потому",
+      "normalized": "потому",
+      "start": 226.98,
+      "end": 227.06,
+      "probability": 0.9709,
+      "alignment": "exact",
+      "start_frame": 6809,
+      "end_frame": 6812
+    },
+    {
+      "index": 503,
+      "paragraph": 10,
+      "word": "что",
+      "normalized": "что",
+      "start": 227.06,
+      "end": 227.32,
+      "probability": 0.989,
+      "alignment": "exact",
+      "start_frame": 6812,
+      "end_frame": 6820
+    },
+    {
+      "index": 504,
+      "paragraph": 10,
+      "word": "дальше",
+      "normalized": "дальше",
+      "start": 227.32,
+      "end": 227.62,
+      "probability": 0.865,
+      "alignment": "exact",
+      "start_frame": 6820,
+      "end_frame": 6829
+    },
+    {
+      "index": 505,
+      "paragraph": 10,
+      "word": "я",
+      "normalized": "я",
+      "start": 227.62,
+      "end": 227.74,
+      "probability": 0.9746,
+      "alignment": "exact",
+      "start_frame": 6829,
+      "end_frame": 6832
+    },
+    {
+      "index": 506,
+      "paragraph": 10,
+      "word": "покажу",
+      "normalized": "покажу",
+      "start": 227.74,
+      "end": 228.06,
+      "probability": 0.9965,
+      "alignment": "exact",
+      "start_frame": 6832,
+      "end_frame": 6842
+    },
+    {
+      "index": 507,
+      "paragraph": 10,
+      "word": "три",
+      "normalized": "три",
+      "start": 228.06,
+      "end": 228.34,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6842,
+      "end_frame": 6850
+    },
+    {
+      "index": 508,
+      "paragraph": 10,
+      "word": "вопроса",
+      "normalized": "вопроса",
+      "start": 228.34,
+      "end": 229.0,
+      "probability": 0.8834,
+      "alignment": "exact",
+      "start_frame": 6850,
+      "end_frame": 6870
+    },
+    {
+      "index": 509,
+      "paragraph": 10,
+      "word": "которые",
+      "normalized": "которые",
+      "start": 229.04,
+      "end": 229.34,
+      "probability": 0.996,
+      "alignment": "exact",
+      "start_frame": 6871,
+      "end_frame": 6880
+    },
+    {
+      "index": 510,
+      "paragraph": 10,
+      "word": "разоблачают",
+      "normalized": "разоблачают",
+      "start": 229.34,
+      "end": 230.28,
+      "probability": 0.9197,
+      "alignment": "exact",
+      "start_frame": 6880,
+      "end_frame": 6908
+    },
+    {
+      "index": 511,
+      "paragraph": 10,
+      "word": "выдумку",
+      "normalized": "выдумку",
+      "start": 230.28,
+      "end": 230.74,
+      "probability": null,
+      "alignment": "interpolated",
+      "start_frame": 6908,
+      "end_frame": 6922
+    },
+    {
+      "index": 512,
+      "paragraph": 10,
+      "word": "нейросети",
+      "normalized": "нейросети",
+      "start": 230.74,
+      "end": 231.24,
+      "probability": 0.8722,
+      "alignment": "exact",
+      "start_frame": 6922,
+      "end_frame": 6937
+    },
+    {
+      "index": 513,
+      "paragraph": 10,
+      "word": "за",
+      "normalized": "за",
+      "start": 231.24,
+      "end": 231.48,
+      "probability": 0.8804,
+      "alignment": "exact",
+      "start_frame": 6937,
+      "end_frame": 6944
+    },
+    {
+      "index": 514,
+      "paragraph": 10,
+      "word": "секунды",
+      "normalized": "секунды",
+      "start": 231.48,
+      "end": 232.08,
+      "probability": 0.9835,
+      "alignment": "exact",
+      "start_frame": 6944,
+      "end_frame": 6962
+    },
+    {
+      "index": 515,
+      "paragraph": 10,
+      "word": "И",
+      "normalized": "и",
+      "start": 232.64,
+      "end": 232.76,
+      "probability": 0.9002,
+      "alignment": "exact",
+      "start_frame": 6979,
+      "end_frame": 6983
+    },
+    {
+      "index": 516,
+      "paragraph": 10,
+      "word": "поставьте",
+      "normalized": "поставьте",
+      "start": 232.76,
+      "end": 233.16,
+      "probability": 0.9961,
+      "alignment": "exact",
+      "start_frame": 6983,
+      "end_frame": 6995
+    },
+    {
+      "index": 517,
+      "paragraph": 10,
+      "word": "лайк",
+      "normalized": "лайк",
+      "start": 233.16,
+      "end": 233.42,
+      "probability": 0.9218,
+      "alignment": "exact",
+      "start_frame": 6995,
+      "end_frame": 7003
+    },
+    {
+      "index": 518,
+      "paragraph": 10,
+      "word": "если",
+      "normalized": "если",
+      "start": 233.46,
+      "end": 233.6,
+      "probability": 0.9937,
+      "alignment": "exact",
+      "start_frame": 7004,
+      "end_frame": 7008
+    },
+    {
+      "index": 519,
+      "paragraph": 10,
+      "word": "не",
+      "normalized": "не",
+      "start": 233.6,
+      "end": 233.7,
+      "probability": 0.9827,
+      "alignment": "exact",
+      "start_frame": 7008,
+      "end_frame": 7011
+    },
+    {
+      "index": 520,
+      "paragraph": 10,
+      "word": "хотите",
+      "normalized": "хотите",
+      "start": 233.7,
+      "end": 233.92,
+      "probability": 0.9898,
+      "alignment": "exact",
+      "start_frame": 7011,
+      "end_frame": 7018
+    },
+    {
+      "index": 521,
+      "paragraph": 10,
+      "word": "стать",
+      "normalized": "стать",
+      "start": 233.92,
+      "end": 234.2,
+      "probability": 0.9775,
+      "alignment": "exact",
+      "start_frame": 7018,
+      "end_frame": 7026
+    },
+    {
+      "index": 522,
+      "paragraph": 10,
+      "word": "тем",
+      "normalized": "тем",
+      "start": 234.2,
+      "end": 234.66,
+      "probability": 0.9841,
+      "alignment": "exact",
+      "start_frame": 7026,
+      "end_frame": 7040
+    },
+    {
+      "index": 523,
+      "paragraph": 10,
+      "word": "самым",
+      "normalized": "самым",
+      "start": 234.66,
+      "end": 235.12,
+      "probability": 0.9882,
+      "alignment": "exact",
+      "start_frame": 7040,
+      "end_frame": 7054
+    },
+    {
+      "index": 524,
+      "paragraph": 10,
+      "word": "адвокатом",
+      "normalized": "адвокатом",
+      "start": 235.12,
+      "end": 235.7,
+      "probability": 0.8726,
+      "alignment": "exact",
+      "start_frame": 7054,
+      "end_frame": 7071
+    },
+    {
+      "index": 525,
+      "paragraph": 10,
+      "word": "До",
+      "normalized": "до",
+      "start": 236.2,
+      "end": 236.42,
+      "probability": 0.9784,
+      "alignment": "exact",
+      "start_frame": 7086,
+      "end_frame": 7093
+    },
+    {
+      "index": 526,
+      "paragraph": 10,
+      "word": "встречи",
+      "normalized": "встречи",
+      "start": 236.42,
+      "end": 236.82,
+      "probability": 0.9991,
+      "alignment": "exact",
+      "start_frame": 7093,
+      "end_frame": 7105
+    }
+  ]
+}

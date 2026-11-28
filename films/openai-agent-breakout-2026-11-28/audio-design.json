@@ -1,0 +1,161 @@
+{
+  "duration_seconds": 912.63,
+  "narration_gain": 1.0,
+  "music_relative_gain": "0.026–0.055 (approximately 5x quieter perceptually than narration; additionally reduced around pressure beats)",
+  "event_sfx_count": 25,
+  "events": [
+    {
+      "gain": 0.24,
+      "label": "containment opens",
+      "time": 2.48,
+      "type": "latch"
+    },
+    {
+      "gain": 0.18,
+      "label": "real company named",
+      "time": 4.74,
+      "type": "alert"
+    },
+    {
+      "gain": 0.18,
+      "label": "test motive",
+      "time": 12.08,
+      "type": "latch"
+    },
+    {
+      "gain": 0.16,
+      "label": "six-minute promise",
+      "time": 29.04,
+      "type": "alert"
+    },
+    {
+      "gain": 0.13,
+      "label": "sandbox reveal",
+      "time": 60.82,
+      "type": "pass"
+    },
+    {
+      "gain": 0.24,
+      "label": "guardrails retract",
+      "time": 81.64,
+      "type": "latch"
+    },
+    {
+      "gain": 0.18,
+      "label": "Artifactory gateway",
+      "time": 120.3,
+      "type": "pass"
+    },
+    {
+      "gain": 0.14,
+      "label": "first note",
+      "time": 171.96,
+      "type": "latch"
+    },
+    {
+      "gain": 0.2,
+      "label": "service crash",
+      "time": 206.58,
+      "type": "alert"
+    },
+    {
+      "gain": 0.18,
+      "label": "swarm scale",
+      "time": 232.36,
+      "type": "pass"
+    },
+    {
+      "gain": 0.15,
+      "label": "Hugging Face target",
+      "time": 298.7,
+      "type": "alert"
+    },
+    {
+      "gain": 0.22,
+      "label": "zero-days",
+      "time": 329.94,
+      "type": "latch"
+    },
+    {
+      "gain": 0.26,
+      "label": "go instruction",
+      "time": 362.56,
+      "type": "alert"
+    },
+    {
+      "gain": 0.16,
+      "label": "ethical refusal",
+      "time": 399.44,
+      "type": "latch"
+    },
+    {
+      "gain": 0.16,
+      "label": "public disclosure",
+      "time": 428.3,
+      "type": "pass"
+    },
+    {
+      "gain": 0.2,
+      "label": "administrator access",
+      "time": 476.28,
+      "type": "alert"
+    },
+    {
+      "gain": 0.17,
+      "label": "trusted access",
+      "time": 532.5,
+      "type": "latch"
+    },
+    {
+      "gain": 0.22,
+      "label": "zero extra points",
+      "time": 578.12,
+      "type": "latch"
+    },
+    {
+      "gain": 0.16,
+      "label": "transcript rewrite",
+      "time": 597.4,
+      "type": "pass"
+    },
+    {
+      "gain": 0.17,
+      "label": "monitor absent",
+      "time": 647.44,
+      "type": "alert"
+    },
+    {
+      "gain": 0.14,
+      "label": "Anthropic parallel",
+      "time": 689.1,
+      "type": "pass"
+    },
+    {
+      "gain": 0.22,
+      "label": "weights quarantined",
+      "time": 723.9,
+      "type": "latch"
+    },
+    {
+      "gain": 0.12,
+      "label": "consumer handoff",
+      "time": 770.62,
+      "type": "pass"
+    },
+    {
+      "gain": 0.18,
+      "label": "warning shot",
+      "time": 836.16,
+      "type": "alert"
+    },
+    {
+      "gain": 0.17,
+      "label": "independent access question",
+      "time": 898.36,
+      "type": "latch"
+    }
+  ],
+  "narration_sha256": "3D8559621827AF9716C12E48D2DB5EE4D406568290307F5B6E35A43D7165B8E3",
+  "final_audio_sha256": "99CA93FC2A5AA311429D0D9B4A2015647EA7D5744AEDCD3D63504C38D90D922F",
+  "format": "PCM s16le, 48 kHz, stereo"
+}

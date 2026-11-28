@@ -1,8 +1,0 @@
-{
-  "composition": "EvidenceLedgerFilm",
-  "fps": 30,
-  "expected_frames": 58744,
-  "expected_duration": 1958.12,
-  "audio_file": "narration.wav",
-  "render_timeout_seconds": 10800
-}

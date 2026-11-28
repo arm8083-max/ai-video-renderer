@@ -1,8 +1,0 @@
-{
-  "composition": "CalibrationFilm",
-  "fps": 24,
-  "expected_frames": 46995,
-  "expected_duration": 1958.125,
-  "audio_file": "narration.flac",
-  "render_timeout_seconds": 10800
-}

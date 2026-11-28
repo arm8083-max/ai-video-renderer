@@ -1,0 +1,7 @@
+node_modules/
+.audio-work/
+public/final-audio.wav
+out/
+.qa-scenes/
+qa-*.mp4
+styleframes/

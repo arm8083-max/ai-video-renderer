@@ -1,0 +1,28 @@
+{
+  "name": "openai-agent-breakout-film",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "still:hook": "remotion still src/index.ts AgentBreakout styleframes/01-hook.png --frame=360",
+    "still:swarm": "remotion still src/index.ts AgentBreakout styleframes/02-swarm.png --frame=7080",
+    "still:attack": "remotion still src/index.ts AgentBreakout styleframes/03-attack.png --frame=10020",
+    "still:accountability": "remotion still src/index.ts AgentBreakout styleframes/04-accountability.png --frame=19440",
+    "still:ending": "remotion still src/index.ts AgentBreakout styleframes/05-ending.png --frame=26850"
+  },
+  "dependencies": {
+    "@fontsource/archivo": "5.2.8",
+    "@fontsource/literata": "5.2.8",
+    "@remotion/cli": "4.0.545",
+    "@remotion/renderer": "4.0.545",
+    "lucide-react": "0.468.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.545"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
